@@ -37,7 +37,7 @@ app.get("/auth/callback", async (req, res) => {
     const { tokens } = await getOAuth2(req).getToken(req.query.code);
     req.session.tokens = tokens;
     res.send("Autenticado. Você pode fechar esta aba.");
-  } catch (e) { res.status(400).send("Falha na autenticação."); }
+  } catch { res.status(400).send("Falha na autenticação."); }
 });
 
 app.get("/drive/list", requireAuth, async (req, res) => {
