@@ -1,0 +1,22 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Google Drive Manager",
+  "name_for_model": "google_drive_manager",
+  "description_for_human": "Gerencia Google Drive: pastas e arquivos.",
+  "description_for_model": "Cria pastas, cria/edita/baixa arquivos, move e compartilha no Google Drive.",
+  "auth": {
+    "type": "oauth",
+    "client_url": "http://localhost:3000/auth/url",
+    "scope": "https://www.googleapis.com/auth/drive https://www.googleapis.com/auth/drive.file",
+    "authorization_url": "https://accounts.google.com/o/oauth2/v2/auth",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {}
+  },
+  "api": {
+    "type": "openapi",
+    "url": "http://localhost:3000/openapi.json",
+    "is_user_authenticated": true
+  },
+  "contact_email": "admin@example.com",
+  "legal_info_url": "http://localhost:3000/legal"
+}
