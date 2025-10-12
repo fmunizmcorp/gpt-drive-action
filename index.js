@@ -9,7 +9,11 @@ const path = require("path");
 const app = express();
 app.use(cors());
 app.use(bodyParser.json({ limit: "25mb" }));
-app.use(session({ secret: process.env.SESSION_SECRET || "change-me", resave: false, saveUninitialized: false }));
+app.use(session({
+  secret: process.env.SESSION_SECRET || "change-me",
+  resave: false,
+  saveUninitialized: false
+}));
 
 const BASE_URL = process.env.BASE_URL || "http://localhost:3000";
 const SCOPES = (process.env.DRIVE_SCOPES || "https://www.googleapis.com/auth/drive").split(" ");
@@ -23,21 +27,35 @@ function getOAuth2(req) {
   if (req.session.tokens) oAuth2Client.setCredentials(req.session.tokens);
   return oAuth2Client;
 }
-function requireAuth(req, res, next) { if (!req.session?.tokens) return res.status(401).json({ error: "not_authenticated" }); next(); }
-function driveClient(req) { return google.drive({ version: "v3", auth: getOAuth2(req) }); }
+function requireAuth(req, res, next) {
+  if (!req.session?.tokens) return res.status(401).json({ error: "not_authenticated" });
+  next();
+}
+function driveClient(req) {
+  return google.drive({ version: "v3", auth: getOAuth2(req) });
+}
 
 app.get("/health", (_, res) => res.json({ ok: true }));
 
 app.get("/auth/url", (req, res) => {
-  const url = getOAuth2(req).generateAuthUrl({ access_type: "offline", prompt: "consent", scope: SCOPES });
+  const url = getOAuth2(req).generateAuthUrl({
+    access_type: "offline",
+    prompt: "consent",
+    scope: SCOPES
+  });
   res.json({ url });
 });
+
 app.get("/auth/callback", async (req, res) => {
   try {
-    const { tokens } = await getOAuth2(req).getToken(req.query.code);
+    const { code } = req.query;
+    const oAuth2Client = getOAuth2(req);
+    const { tokens } = await oAuth2Client.getToken(code);
     req.session.tokens = tokens;
     res.send("Autenticado. Você pode fechar esta aba.");
-  } catch { res.status(400).send("Falha na autenticação."); }
+  } catch {
+    res.status(400).send("Falha na autenticação.");
+  }
 });
 
 app.get("/drive/list", requireAuth, async (req, res) => {
@@ -55,7 +73,11 @@ app.get("/drive/list", requireAuth, async (req, res) => {
 app.post("/drive/create-folder", requireAuth, async (req, res) => {
   try {
     const r = await driveClient(req).files.create({
-      requestBody: { name: req.body.name, mimeType: "application/vnd.google-apps.folder", parents: req.body.parentId ? [req.body.parentId] : undefined },
+      requestBody: {
+        name: req.body.name,
+        mimeType: "application/vnd.google-apps.folder",
+        parents: req.body.parentId ? [req.body.parentId] : undefined
+      },
       fields: "id,name,webViewLink"
     });
     res.json(r.data);
@@ -71,14 +93,21 @@ app.post("/drive/create-file", requireAuth, async (req, res) => {
     };
     if (googleTypes[req.body.type]) {
       const r = await driveClient(req).files.create({
-        requestBody: { name: req.body.name, mimeType: googleTypes[req.body.type], parents: req.body.parentId ? [req.body.parentId] : undefined },
+        requestBody: {
+          name: req.body.name,
+          mimeType: googleTypes[req.body.type],
+          parents: req.body.parentId ? [req.body.parentId] : undefined
+        },
         fields: "id,name,webViewLink"
       });
       return res.json(r.data);
     }
     if (!req.body.base64) return res.status(400).json({ error: "base64_required_for_binary" });
     const r = await driveClient(req).files.create({
-      requestBody: { name: req.body.name, parents: req.body.parentId ? [req.body.parentId] : undefined },
+      requestBody: {
+        name: req.body.name,
+        parents: req.body.parentId ? [req.body.parentId] : undefined
+      },
       media: { mimeType: "application/octet-stream", body: Buffer.from(req.body.base64, "base64") },
       fields: "id,name,webViewLink,webContentLink"
     });
@@ -98,7 +127,10 @@ app.get("/drive/metadata/:id", requireAuth, async (req, res) => {
 
 app.get("/drive/download/:id", requireAuth, async (req, res) => {
   try {
-    const r = await driveClient(req).files.get({ fileId: req.params.id, alt: "media" }, { responseType: "arraybuffer" });
+    const r = await driveClient(req).files.get(
+      { fileId: req.params.id, alt: "media" },
+      { responseType: "arraybuffer" }
+    );
     res.json({ base64: Buffer.from(r.data).toString("base64") });
   } catch (e) { res.status(500).json({ error: e.message }); }
 });
@@ -111,9 +143,15 @@ app.patch("/drive/update/:id", requireAuth, async (req, res) => {
       meta.addParents = req.body.addParentId || undefined;
       meta.removeParents = req.body.removeParentId || undefined;
     }
-    const media = req.body.base64 ? { mimeType: "application/octet-stream", body: Buffer.from(req.body.base64, "base64") } : undefined;
+    const media = req.body.base64
+      ? { mimeType: "application/octet-stream", body: Buffer.from(req.body.base64, "base64") }
+      : undefined;
+
     const r = await driveClient(req).files.update({
-      fileId: req.params.id, requestBody: meta, media, fields: "id,name,parents,webViewLink,webContentLink"
+      fileId: req.params.id,
+      requestBody: meta,
+      media,
+      fields: "id,name,parents,webViewLink,webContentLink"
     });
     res.json(r.data);
   } catch (e) { res.status(500).json({ error: e.message }); }
