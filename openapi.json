@@ -1,78 +1,93 @@
 {
   "openapi": "3.1.0",
-  "info": { "title": "Google Drive Action API", "version": "1.0.0" },
-  "servers": [
-    { "url": "https://gpt-drive-action.onrender.com" }
-  ],
+  "info": { "title": "Google Drive Action API", "version": "1.1.0" },
+  "servers": [{ "url": "https://gpt-drive-action.onrender.com" }],
   "paths": {
+    "/health": { "get": { "operationId": "health", "responses": { "200": { "description": "OK" } } } },
     "/auth/url": {
-      "get": { "operationId": "getAuthUrl", "responses": { "200": { "description": "OK" } } }
+      "get": {
+        "operationId": "getAuthUrlForKey",
+        "parameters": [
+          { "name": "key", "in": "query", "required": true, "schema": { "type": "string" }, "description": "Sua X-Auth-Key" }
+        ],
+        "responses": { "200": { "description": "OK" }, "400": { "description": "key_required" } }
+      }
     },
     "/drive/list": {
       "get": {
         "operationId": "listFiles",
         "parameters": [
+          { "name": "X-Auth-Key", "in": "header", "required": true, "schema": { "type": "string" } },
           { "name": "q", "in": "query", "schema": { "type": "string" } },
           { "name": "pageSize", "in": "query", "schema": { "type": "integer" } },
           { "name": "pageToken", "in": "query", "schema": { "type": "string" } }
         ],
-        "responses": { "200": { "description": "OK" }, "401": { "description": "Not Authenticated" } }
+        "responses": { "200": { "description": "OK" }, "401": { "description": "not_authorized_for_key" } }
       }
     },
     "/drive/create-folder": {
       "post": {
         "operationId": "createFolder",
+        "parameters": [
+          { "name": "X-Auth-Key", "in": "header", "required": true, "schema": { "type": "string" } }
+        ],
         "requestBody": {
           "required": true,
-          "content": {
-            "application/json": {
-              "schema": { "type": "object", "required": ["name"], "properties": {
-                "name": { "type": "string" },
-                "parentId": { "type": "string" }
-              } }
-            }
-          }
+          "content": { "application/json": {
+            "schema": { "type": "object", "required": ["name"], "properties": {
+              "name": { "type": "string" }, "parentId": { "type": "string" }
+            } }
+          } }
         },
-        "responses": { "200": { "description": "OK" }, "401": { "description": "Not Authenticated" } }
+        "responses": { "200": { "description": "OK" }, "401": { "description": "not_authorized_for_key" } }
       }
     },
     "/drive/create-file": {
       "post": {
         "operationId": "createFile",
+        "parameters": [
+          { "name": "X-Auth-Key", "in": "header", "required": true, "schema": { "type": "string" } }
+        ],
         "requestBody": {
           "required": true,
-          "content": {
-            "application/json": {
-              "schema": { "type": "object", "properties": {
-                "name": { "type": "string" },
-                "parentId": { "type": "string" },
-                "type": { "type": "string", "enum": ["doc","sheet","slide","binary"] },
-                "base64": { "type": "string" }
-              } }
-            }
-          }
+          "content": { "application/json": {
+            "schema": { "type": "object", "properties": {
+              "name": { "type": "string" }, "parentId": { "type": "string" },
+              "type": { "type": "string", "enum": ["doc","sheet","slide","binary"] },
+              "base64": { "type": "string" }
+            } }
+          } }
         },
-        "responses": { "200": { "description": "OK" }, "401": { "description": "Not Authenticated" } }
+        "responses": { "200": { "description": "OK" }, "401": { "description": "not_authorized_for_key" } }
       }
     },
     "/drive/metadata/{id}": {
       "get": {
         "operationId": "getMetadata",
-        "parameters": [{ "name": "id", "in": "path", "required": true, "schema": { "type": "string" } }],
-        "responses": { "200": { "description": "OK" }, "401": { "description": "Not Authenticated" } }
+        "parameters": [
+          { "name": "X-Auth-Key", "in": "header", "required": true, "schema": { "type": "string" } },
+          { "name": "id", "in": "path", "required": true, "schema": { "type": "string" } }
+        ],
+        "responses": { "200": { "description": "OK" }, "401": { "description": "not_authorized_for_key" } }
       }
     },
     "/drive/download/{id}": {
       "get": {
         "operationId": "downloadBase64",
-        "parameters": [{ "name": "id", "in": "path", "required": true, "schema": { "type": "string" } }],
-        "responses": { "200": { "description": "OK" }, "401": { "description": "Not Authenticated" } }
+        "parameters": [
+          { "name": "X-Auth-Key", "in": "header", "required": true, "schema": { "type": "string" } },
+          { "name": "id", "in": "path", "required": true, "schema": { "type": "string" } }
+        ],
+        "responses": { "200": { "description": "OK" }, "401": { "description": "not_authorized_for_key" } }
       }
     },
     "/drive/update/{id}": {
       "patch": {
         "operationId": "updateFile",
-        "parameters": [{ "name": "id", "in": "path", "required": true, "schema": { "type": "string" } }],
+        "parameters": [
+          { "name": "X-Auth-Key", "in": "header", "required": true, "schema": { "type": "string" } },
+          { "name": "id", "in": "path", "required": true, "schema": { "type": "string" } }
+        ],
         "requestBody": {
           "required": true,
           "content": { "application/json": {
@@ -84,14 +99,9 @@
             } }
           } }
         },
-        "responses": { "200": { "description": "OK" }, "401": { "description": "Not Authenticated" } }
+        "responses": { "200": { "description": "OK" }, "401": { "description": "not_authorized_for_key" } }
       }
     },
-    "/auth/logout": {
-      "post": { "operationId": "logout", "responses": { "200": { "description": "OK" } } }
-    },
-    "/health": {
-      "get": { "operationId": "health", "responses": { "200": { "description": "OK" } } }
-    }
+    "/legal": { "get": { "operationId": "legal", "responses": { "200": { "description": "OK" } } } }
   }
 }
