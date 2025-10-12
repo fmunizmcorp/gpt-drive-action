@@ -1,9 +1,13 @@
 {
   "openapi": "3.1.0",
   "info": { "title": "Google Drive Action API", "version": "1.0.0" },
-  "servers": [{ "url": "http://localhost:3000" }],
+  "servers": [
+    { "url": "https://gpt-drive-action.onrender.com" }
+  ],
   "paths": {
-    "/auth/url": { "get": { "operationId": "getAuthUrl", "responses": { "200": { "description": "OK" } } } },
+    "/auth/url": {
+      "get": { "operationId": "getAuthUrl", "responses": { "200": { "description": "OK" } } }
+    },
     "/drive/list": {
       "get": {
         "operationId": "listFiles",
@@ -20,7 +24,14 @@
         "operationId": "createFolder",
         "requestBody": {
           "required": true,
-          "content": { "application/json": { "schema": { "type": "object", "required": ["name"], "properties": { "name": { "type": "string" }, "parentId": { "type": "string" } } } } }
+          "content": {
+            "application/json": {
+              "schema": { "type": "object", "required": ["name"], "properties": {
+                "name": { "type": "string" },
+                "parentId": { "type": "string" }
+              } }
+            }
+          }
         },
         "responses": { "200": { "description": "OK" }, "401": { "description": "Not Authenticated" } }
       }
@@ -30,7 +41,16 @@
         "operationId": "createFile",
         "requestBody": {
           "required": true,
-          "content": { "application/json": { "schema": { "type": "object", "properties": { "name": { "type": "string" }, "parentId": { "type": "string" }, "type": { "type": "string", "enum": ["doc","sheet","slide","binary"] }, "base64": { "type": "string" } } } } }
+          "content": {
+            "application/json": {
+              "schema": { "type": "object", "properties": {
+                "name": { "type": "string" },
+                "parentId": { "type": "string" },
+                "type": { "type": "string", "enum": ["doc","sheet","slide","binary"] },
+                "base64": { "type": "string" }
+              } }
+            }
+          }
         },
         "responses": { "200": { "description": "OK" }, "401": { "description": "Not Authenticated" } }
       }
@@ -55,23 +75,23 @@
         "parameters": [{ "name": "id", "in": "path", "required": true, "schema": { "type": "string" } }],
         "requestBody": {
           "required": true,
-          "content": { "application/json": { "schema": { "type": "object", "properties": { "name": { "type": "string" }, "addParentId": { "type": "string" }, "removeParentId": { "type": "string" }, "base64": { "type": "string" } } } } }
+          "content": { "application/json": {
+            "schema": { "type": "object", "properties": {
+              "name": { "type": "string" },
+              "addParentId": { "type": "string" },
+              "removeParentId": { "type": "string" },
+              "base64": { "type": "string" }
+            } }
+          } }
         },
         "responses": { "200": { "description": "OK" }, "401": { "description": "Not Authenticated" } }
       }
     },
-    "/drive/permissions/{id}": {
-      "post": {
-        "operationId": "setPermissions",
-        "parameters": [{ "name": "id", "in": "path", "required": true, "schema": { "type": "string" } }],
-        "requestBody": {
-          "required": true,
-          "content": { "application/json": { "schema": { "type": "object", "properties": { "role": { "type": "string", "enum": ["owner","organizer","fileOrganizer","writer","commenter","reader"] }, "type": { "type": "string", "enum": ["user","group","domain","anyone"] }, "emailAddress": { "type": "string" } } } } }
-        },
-        "responses": { "200": { "description": "OK" }, "401": { "description": "Not Authenticated" } }
-      }
+    "/auth/logout": {
+      "post": { "operationId": "logout", "responses": { "200": { "description": "OK" } } }
     },
-    "/auth/logout": { "post": { "operationId": "logout", "responses": { "200": { "description": "OK" } } } },
-    "/health": { "get": { "operationId": "health", "responses": { "200": { "description": "OK" } } } }
+    "/health": {
+      "get": { "operationId": "health", "responses": { "200": { "description": "OK" } } }
+    }
   }
 }
