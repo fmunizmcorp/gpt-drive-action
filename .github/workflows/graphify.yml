@@ -1,8 +1,5 @@
 name: Graphify - Regenerar Grafo de Conhecimento
 
-# Roda automaticamente em pushes para a branch principal e tambem manualmente.
-# Resultado: docs/graphify/* atualizado a cada commit.
-
 on:
   push:
     branches: [main, master]
@@ -11,7 +8,6 @@ on:
       - '.graphify/**'
   workflow_dispatch:
   schedule:
-    # Toda madrugada (3h Brasil = 6h UTC)
     - cron: '0 6 * * *'
 
 permissions:
@@ -46,7 +42,7 @@ jobs:
       - name: Executar graphify build
         run: |
           mkdir -p docs/graphify .graphify
-          graphify build . || graphify .
+          graphify build . || graphify . || echo "graphify nao gerou nada - segue"
         continue-on-error: true
 
       - name: Listar arquivos gerados
@@ -62,8 +58,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Nenhuma mudanca no grafo - nada a commitar."
           else
-            git commit -m "chore(graphify): regenera grafo automaticamente
-
-[skip ci]"
+            git commit -m "chore(graphify): regenera grafo automaticamente [skip ci]"
             git push
           fi
