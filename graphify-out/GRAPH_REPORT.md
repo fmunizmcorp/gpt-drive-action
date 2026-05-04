@@ -1,7 +1,7 @@
 # Graph Report - gpt-drive-action  (2026-05-04)
 
 ## Corpus Check
-- 1 files · ~719 words
+- 1 files · ~1,724 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `b44b0b11`
+- Built from commit: `441c86c7`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
