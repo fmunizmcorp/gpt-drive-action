@@ -29,11 +29,11 @@
       "source_file": "index.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "index_js",
-      "target": "gpt_drive_action_index_fetch",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_index_fetch"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "c2e549d406c06d719f188c1fe62494340c957a61"
+  "built_at_commit": "b44b0b11d5995fd72cafc3d073c94c2bb6d697fd"
 }
