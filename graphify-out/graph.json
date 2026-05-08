@@ -9,8 +9,17 @@
       "source_file": "index.js",
       "source_location": "L1",
       "id": "index_js",
-      "community": 8,
+      "community": 3,
       "norm_label": "index.js"
+    },
+    {
+      "label": "express",
+      "file_type": "code",
+      "source_file": "index.js",
+      "source_location": "L1",
+      "id": "gpt_drive_action_index_express",
+      "community": 3,
+      "norm_label": "express"
     },
     {
       "label": "fetch()",
@@ -18,8 +27,26 @@
       "source_file": "index.js",
       "source_location": "L2",
       "id": "gpt_drive_action_index_fetch",
-      "community": 8,
+      "community": 3,
       "norm_label": "fetch()"
+    },
+    {
+      "label": "app",
+      "file_type": "code",
+      "source_file": "index.js",
+      "source_location": "L3",
+      "id": "gpt_drive_action_index_app",
+      "community": 3,
+      "norm_label": "app"
+    },
+    {
+      "label": "url",
+      "file_type": "code",
+      "source_file": "index.js",
+      "source_location": "L13",
+      "id": "gpt_drive_action_index_url",
+      "community": 3,
+      "norm_label": "url"
     },
     {
       "label": "CLAUDE.md",
@@ -189,7 +216,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L218",
       "id": "gpt_drive_action_claude_3_squad_de_ias_skills_aplicaveis",
-      "community": 6,
+      "community": 7,
       "norm_label": "3. squad de ias (skills aplicaveis)"
     },
     {
@@ -198,7 +225,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L220",
       "id": "gpt_drive_action_claude_skills_basais_sempre_validas_em_qualquer_tarefa",
-      "community": 6,
+      "community": 7,
       "norm_label": "skills basais (sempre validas em qualquer tarefa)"
     },
     {
@@ -207,7 +234,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L228",
       "id": "gpt_drive_action_claude_skills_especificas_deste_projeto",
-      "community": 6,
+      "community": 7,
       "norm_label": "skills especificas deste projeto"
     },
     {
@@ -216,7 +243,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L233",
       "id": "gpt_drive_action_claude_quando_usar_cada_skill",
-      "community": 6,
+      "community": 7,
       "norm_label": "quando usar cada skill"
     },
     {
@@ -288,7 +315,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L311",
       "id": "gpt_drive_action_claude_7_estrutura_do_repo",
-      "community": 3,
+      "community": 4,
       "norm_label": "7. estrutura do repo"
     },
     {
@@ -297,7 +324,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L313",
       "id": "gpt_drive_action_claude_diretorios_principais",
-      "community": 3,
+      "community": 4,
       "norm_label": "diretorios principais"
     },
     {
@@ -306,7 +333,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L315",
       "id": "gpt_drive_action_claude_codeblock_2",
-      "community": 3,
+      "community": 4,
       "norm_label": "code:block2 (.claude)"
     },
     {
@@ -315,7 +342,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L321",
       "id": "gpt_drive_action_claude_arquivos_da_raiz_amostra",
-      "community": 3,
+      "community": 4,
       "norm_label": "arquivos da raiz (amostra)"
     },
     {
@@ -324,7 +351,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L323",
       "id": "gpt_drive_action_claude_codeblock_3",
-      "community": 3,
+      "community": 4,
       "norm_label": "code:block3 (.gitignore)"
     },
     {
@@ -333,7 +360,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L333",
       "id": "gpt_drive_action_claude_9_aprendizado_e_atualizacao_continua",
-      "community": 7,
+      "community": 8,
       "norm_label": "9. aprendizado e atualizacao continua"
     },
     {
@@ -342,7 +369,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L335",
       "id": "gpt_drive_action_claude_regra_de_ouro_sempre_atualize_o_conhecimento_do_projeto",
-      "community": 7,
+      "community": 8,
       "norm_label": "regra de ouro: sempre atualize o conhecimento do projeto"
     },
     {
@@ -351,7 +378,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L361",
       "id": "gpt_drive_action_claude_triggers_para_regenerar_grafo",
-      "community": 7,
+      "community": 8,
       "norm_label": "triggers para regenerar grafo"
     },
     {
@@ -423,7 +450,7 @@
       "source_file": "docs/APRENDIZADOS.md",
       "source_location": "L1",
       "id": "docs_aprendizados_md",
-      "community": 4,
+      "community": 5,
       "norm_label": "aprendizados.md"
     },
     {
@@ -432,7 +459,7 @@
       "source_file": "docs/APRENDIZADOS.md",
       "source_location": "L1",
       "id": "docs_aprendizados_aprendizados_fmunizmcorp_gpt_drive_action",
-      "community": 4,
+      "community": 5,
       "norm_label": "aprendizados - fmunizmcorp/gpt-drive-action"
     },
     {
@@ -441,7 +468,7 @@
       "source_file": "docs/APRENDIZADOS.md",
       "source_location": "L7",
       "id": "docs_aprendizados_como_usar",
-      "community": 4,
+      "community": 5,
       "norm_label": "como usar"
     },
     {
@@ -450,7 +477,7 @@
       "source_file": "docs/APRENDIZADOS.md",
       "source_location": "L13",
       "id": "docs_aprendizados_aprendizados",
-      "community": 4,
+      "community": 5,
       "norm_label": "aprendizados"
     },
     {
@@ -459,7 +486,7 @@
       "source_file": "docs/APRENDIZADOS.md",
       "source_location": "L17",
       "id": "docs_aprendizados_yyyy_mm_dd_titulo_do_aprendizado_categoria",
-      "community": 4,
+      "community": 5,
       "norm_label": "yyyy-mm-dd - titulo do aprendizado [#categoria]"
     },
     {
@@ -468,7 +495,7 @@
       "source_file": "docs/HISTORICO.md",
       "source_location": "L1",
       "id": "docs_historico_md",
-      "community": 5,
+      "community": 6,
       "norm_label": "historico.md"
     },
     {
@@ -477,7 +504,7 @@
       "source_file": "docs/HISTORICO.md",
       "source_location": "L1",
       "id": "docs_historico_historico_de_sessoes_fmunizmcorp_gpt_drive_action",
-      "community": 5,
+      "community": 6,
       "norm_label": "historico de sessoes - fmunizmcorp/gpt-drive-action"
     },
     {
@@ -486,7 +513,7 @@
       "source_file": "docs/HISTORICO.md",
       "source_location": "L5",
       "id": "docs_historico_como_usar",
-      "community": 5,
+      "community": 6,
       "norm_label": "como usar"
     },
     {
@@ -495,7 +522,7 @@
       "source_file": "docs/HISTORICO.md",
       "source_location": "L10",
       "id": "docs_historico_historico",
-      "community": 5,
+      "community": 6,
       "norm_label": "historico"
     },
     {
@@ -504,11 +531,21 @@
       "source_file": "docs/HISTORICO.md",
       "source_location": "L14",
       "id": "docs_historico_yyyy_mm_dd_vx_y_z_titulo_da_sessao",
-      "community": 5,
+      "community": 6,
       "norm_label": "yyyy-mm-dd - vx.y.z - titulo da sessao"
     }
   ],
   "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "index_js",
+      "target": "gpt_drive_action_index_express",
+      "confidence_score": 1.0
+    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -522,12 +559,32 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "index.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "index_js",
+      "target": "gpt_drive_action_index_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.js",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "index_js",
+      "target": "gpt_drive_action_index_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_md",
-      "target": "gpt_drive_action_claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa"
     },
     {
       "relation": "contains",
@@ -535,9 +592,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L158",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_md",
-      "target": "gpt_drive_action_claude_claude_md_fmunizmcorp_gpt_drive_action",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_claude_md_fmunizmcorp_gpt_drive_action"
     },
     {
       "relation": "contains",
@@ -545,9 +602,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "gpt_drive_action_claude_regra_1_o_usuario_e_leigo_nunca_pergunte_sobre_persona_skill_ou_configuracao",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_regra_1_o_usuario_e_leigo_nunca_pergunte_sobre_persona_skill_ou_configuracao"
     },
     {
       "relation": "contains",
@@ -555,9 +612,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "gpt_drive_action_claude_regra_0_voce_e_o_lider_orquestrador_deste_repo_ativo_agora",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_regra_0_voce_e_o_lider_orquestrador_deste_repo_ativo_agora"
     },
     {
       "relation": "contains",
@@ -565,9 +622,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "gpt_drive_action_claude_regra_1_skills_basais_sempre_on_nao_pergunte_nao_escolha",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_regra_1_skills_basais_sempre_on_nao_pergunte_nao_escolha"
     },
     {
       "relation": "contains",
@@ -575,9 +632,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "gpt_drive_action_claude_regra_2_skills_condicionais_para_repo_de_desenvolvimento",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_regra_2_skills_condicionais_para_repo_de_desenvolvimento"
     },
     {
       "relation": "contains",
@@ -585,9 +642,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L69",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "gpt_drive_action_claude_regra_2_5_geracao_de_arquivos_excel_pdf_docx_pptx_skills_xlsx_pdf_docx_pptx",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_regra_2_5_geracao_de_arquivos_excel_pdf_docx_pptx_skills_xlsx_pdf_docx_pptx"
     },
     {
       "relation": "contains",
@@ -595,9 +652,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L98",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "gpt_drive_action_claude_regra_3_protocolo_de_leitura_obrigatorio_toda_mensagem_nova",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_regra_3_protocolo_de_leitura_obrigatorio_toda_mensagem_nova"
     },
     {
       "relation": "contains",
@@ -605,9 +662,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L111",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "gpt_drive_action_claude_regra_4_protocolo_de_fechamento_obrigatorio_toda_sessao_com_mudancas",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_regra_4_protocolo_de_fechamento_obrigatorio_toda_sessao_com_mudancas"
     },
     {
       "relation": "contains",
@@ -615,9 +672,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L120",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "gpt_drive_action_claude_regra_5_decisao_do_usuario_sobre_credenciais_ja_documentada",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_regra_5_decisao_do_usuario_sobre_credenciais_ja_documentada"
     },
     {
       "relation": "contains",
@@ -625,9 +682,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L124",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "gpt_drive_action_claude_regra_6_padroes_brasil_obrigatorios",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_regra_6_padroes_brasil_obrigatorios"
     },
     {
       "relation": "contains",
@@ -635,9 +692,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L81",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_regra_2_5_geracao_de_arquivos_excel_pdf_docx_pptx_skills_xlsx_pdf_docx_pptx",
-      "target": "gpt_drive_action_claude_padroes_brasil_obrigatorios_em_cada_arquivo_gerado",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_padroes_brasil_obrigatorios_em_cada_arquivo_gerado"
     },
     {
       "relation": "contains",
@@ -645,9 +702,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L88",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_regra_2_5_geracao_de_arquivos_excel_pdf_docx_pptx_skills_xlsx_pdf_docx_pptx",
-      "target": "gpt_drive_action_claude_fluxo_padrao_quando_o_usuario_pede_arquivo",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_fluxo_padrao_quando_o_usuario_pede_arquivo"
     },
     {
       "relation": "contains",
@@ -655,9 +712,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L163",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_claude_md_fmunizmcorp_gpt_drive_action",
-      "target": "gpt_drive_action_claude_zero_protocolo_de_ativacao_executar_sempre_no_inicio_da_conversa",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_zero_protocolo_de_ativacao_executar_sempre_no_inicio_da_conversa"
     },
     {
       "relation": "contains",
@@ -665,9 +722,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L178",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_claude_md_fmunizmcorp_gpt_drive_action",
-      "target": "gpt_drive_action_claude_zero_1_excelencia_total_regras_inegociaveis",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_zero_1_excelencia_total_regras_inegociaveis"
     },
     {
       "relation": "contains",
@@ -675,9 +732,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L192",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_claude_md_fmunizmcorp_gpt_drive_action",
-      "target": "gpt_drive_action_claude_1_identidade_do_projeto",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_1_identidade_do_projeto"
     },
     {
       "relation": "contains",
@@ -685,9 +742,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L200",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_claude_md_fmunizmcorp_gpt_drive_action",
-      "target": "gpt_drive_action_claude_2_seu_papel_orquestrador",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_2_seu_papel_orquestrador"
     },
     {
       "relation": "contains",
@@ -695,9 +752,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L218",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_claude_md_fmunizmcorp_gpt_drive_action",
-      "target": "gpt_drive_action_claude_3_squad_de_ias_skills_aplicaveis",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_3_squad_de_ias_skills_aplicaveis"
     },
     {
       "relation": "contains",
@@ -705,9 +762,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L237",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_claude_md_fmunizmcorp_gpt_drive_action",
-      "target": "gpt_drive_action_claude_4_metodologia_de_trabalho",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_4_metodologia_de_trabalho"
     },
     {
       "relation": "contains",
@@ -715,9 +772,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L285",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_claude_md_fmunizmcorp_gpt_drive_action",
-      "target": "gpt_drive_action_claude_5_conhecimento_especifico_do_projeto",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_5_conhecimento_especifico_do_projeto"
     },
     {
       "relation": "contains",
@@ -725,9 +782,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L293",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_claude_md_fmunizmcorp_gpt_drive_action",
-      "target": "gpt_drive_action_claude_6_stack_tecnologico_de_package_json",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_6_stack_tecnologico_de_package_json"
     },
     {
       "relation": "contains",
@@ -735,9 +792,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L311",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_claude_md_fmunizmcorp_gpt_drive_action",
-      "target": "gpt_drive_action_claude_7_estrutura_do_repo",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_7_estrutura_do_repo"
     },
     {
       "relation": "contains",
@@ -745,9 +802,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L333",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_claude_md_fmunizmcorp_gpt_drive_action",
-      "target": "gpt_drive_action_claude_9_aprendizado_e_atualizacao_continua",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_9_aprendizado_e_atualizacao_continua"
     },
     {
       "relation": "contains",
@@ -755,9 +812,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L371",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_claude_md_fmunizmcorp_gpt_drive_action",
-      "target": "gpt_drive_action_claude_10_checklist_de_entrega_obrigatorio",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_10_checklist_de_entrega_obrigatorio"
     },
     {
       "relation": "contains",
@@ -765,9 +822,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L413",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_claude_md_fmunizmcorp_gpt_drive_action",
-      "target": "gpt_drive_action_claude_11_referencias_rapidas",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_11_referencias_rapidas"
     },
     {
       "relation": "contains",
@@ -775,9 +832,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L220",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_3_squad_de_ias_skills_aplicaveis",
-      "target": "gpt_drive_action_claude_skills_basais_sempre_validas_em_qualquer_tarefa",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_skills_basais_sempre_validas_em_qualquer_tarefa"
     },
     {
       "relation": "contains",
@@ -785,9 +842,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L228",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_3_squad_de_ias_skills_aplicaveis",
-      "target": "gpt_drive_action_claude_skills_especificas_deste_projeto",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_skills_especificas_deste_projeto"
     },
     {
       "relation": "contains",
@@ -795,9 +852,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L233",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_3_squad_de_ias_skills_aplicaveis",
-      "target": "gpt_drive_action_claude_quando_usar_cada_skill",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_quando_usar_cada_skill"
     },
     {
       "relation": "contains",
@@ -805,9 +862,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L239",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_4_metodologia_de_trabalho",
-      "target": "gpt_drive_action_claude_fluxo_padrao_para_qualquer_tarefa",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_fluxo_padrao_para_qualquer_tarefa"
     },
     {
       "relation": "contains",
@@ -815,9 +872,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L275",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_4_metodologia_de_trabalho",
-      "target": "gpt_drive_action_claude_padroes_obrigatorios",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_padroes_obrigatorios"
     },
     {
       "relation": "contains",
@@ -825,9 +882,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L289",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_5_conhecimento_especifico_do_projeto",
-      "target": "gpt_drive_action_claude_estruturas_centrais_god_nodes_pelo_graphify",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_estruturas_centrais_god_nodes_pelo_graphify"
     },
     {
       "relation": "contains",
@@ -835,9 +892,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L295",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_6_stack_tecnologico_de_package_json",
-      "target": "gpt_drive_action_claude_codeblock_1",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_codeblock_1"
     },
     {
       "relation": "contains",
@@ -845,9 +902,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L313",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_7_estrutura_do_repo",
-      "target": "gpt_drive_action_claude_diretorios_principais",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_diretorios_principais"
     },
     {
       "relation": "contains",
@@ -855,9 +912,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L321",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_7_estrutura_do_repo",
-      "target": "gpt_drive_action_claude_arquivos_da_raiz_amostra",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_arquivos_da_raiz_amostra"
     },
     {
       "relation": "contains",
@@ -865,9 +922,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L315",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_diretorios_principais",
-      "target": "gpt_drive_action_claude_codeblock_2",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_codeblock_2"
     },
     {
       "relation": "contains",
@@ -875,9 +932,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L323",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_arquivos_da_raiz_amostra",
-      "target": "gpt_drive_action_claude_codeblock_3",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_codeblock_3"
     },
     {
       "relation": "contains",
@@ -885,9 +942,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L335",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_9_aprendizado_e_atualizacao_continua",
-      "target": "gpt_drive_action_claude_regra_de_ouro_sempre_atualize_o_conhecimento_do_projeto",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_regra_de_ouro_sempre_atualize_o_conhecimento_do_projeto"
     },
     {
       "relation": "contains",
@@ -895,9 +952,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L361",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_9_aprendizado_e_atualizacao_continua",
-      "target": "gpt_drive_action_claude_triggers_para_regenerar_grafo",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_triggers_para_regenerar_grafo"
     },
     {
       "relation": "contains",
@@ -905,9 +962,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L375",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_10_checklist_de_entrega_obrigatorio",
-      "target": "gpt_drive_action_claude_codigo",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_codigo"
     },
     {
       "relation": "contains",
@@ -915,9 +972,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L383",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_10_checklist_de_entrega_obrigatorio",
-      "target": "gpt_drive_action_claude_testes",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_testes"
     },
     {
       "relation": "contains",
@@ -925,9 +982,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L391",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_10_checklist_de_entrega_obrigatorio",
-      "target": "gpt_drive_action_claude_documentacao",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_documentacao"
     },
     {
       "relation": "contains",
@@ -935,9 +992,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L399",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_10_checklist_de_entrega_obrigatorio",
-      "target": "gpt_drive_action_claude_deploy",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_deploy"
     },
     {
       "relation": "contains",
@@ -945,9 +1002,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L407",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_claude_10_checklist_de_entrega_obrigatorio",
-      "target": "gpt_drive_action_claude_sinalizar_conclusao",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_claude_sinalizar_conclusao"
     },
     {
       "relation": "contains",
@@ -955,9 +1012,9 @@
       "source_file": "docs/APRENDIZADOS.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_aprendizados_md",
-      "target": "docs_aprendizados_aprendizados_fmunizmcorp_gpt_drive_action",
-      "confidence_score": 1.0
+      "target": "docs_aprendizados_aprendizados_fmunizmcorp_gpt_drive_action"
     },
     {
       "relation": "contains",
@@ -965,9 +1022,9 @@
       "source_file": "docs/APRENDIZADOS.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_aprendizados_aprendizados_fmunizmcorp_gpt_drive_action",
-      "target": "docs_aprendizados_como_usar",
-      "confidence_score": 1.0
+      "target": "docs_aprendizados_como_usar"
     },
     {
       "relation": "contains",
@@ -975,9 +1032,9 @@
       "source_file": "docs/APRENDIZADOS.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_aprendizados_aprendizados_fmunizmcorp_gpt_drive_action",
-      "target": "docs_aprendizados_aprendizados",
-      "confidence_score": 1.0
+      "target": "docs_aprendizados_aprendizados"
     },
     {
       "relation": "contains",
@@ -985,9 +1042,9 @@
       "source_file": "docs/APRENDIZADOS.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_aprendizados_aprendizados",
-      "target": "docs_aprendizados_yyyy_mm_dd_titulo_do_aprendizado_categoria",
-      "confidence_score": 1.0
+      "target": "docs_aprendizados_yyyy_mm_dd_titulo_do_aprendizado_categoria"
     },
     {
       "relation": "contains",
@@ -995,9 +1052,9 @@
       "source_file": "docs/HISTORICO.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_historico_md",
-      "target": "docs_historico_historico_de_sessoes_fmunizmcorp_gpt_drive_action",
-      "confidence_score": 1.0
+      "target": "docs_historico_historico_de_sessoes_fmunizmcorp_gpt_drive_action"
     },
     {
       "relation": "contains",
@@ -1005,9 +1062,9 @@
       "source_file": "docs/HISTORICO.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_historico_historico_de_sessoes_fmunizmcorp_gpt_drive_action",
-      "target": "docs_historico_como_usar",
-      "confidence_score": 1.0
+      "target": "docs_historico_como_usar"
     },
     {
       "relation": "contains",
@@ -1015,9 +1072,9 @@
       "source_file": "docs/HISTORICO.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_historico_historico_de_sessoes_fmunizmcorp_gpt_drive_action",
-      "target": "docs_historico_historico",
-      "confidence_score": 1.0
+      "target": "docs_historico_historico"
     },
     {
       "relation": "contains",
@@ -1025,11 +1082,11 @@
       "source_file": "docs/HISTORICO.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_historico_historico",
-      "target": "docs_historico_yyyy_mm_dd_vx_y_z_titulo_da_sessao",
-      "confidence_score": 1.0
+      "target": "docs_historico_yyyy_mm_dd_vx_y_z_titulo_da_sessao"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "eb4c721a623c220292bb1bd302cd3f9f9a621432"
+  "built_at_commit": "e22e24b3f026dce8bd62e406fbdddc30c353d325"
 }

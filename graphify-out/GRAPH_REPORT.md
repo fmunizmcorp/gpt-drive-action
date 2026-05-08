@@ -1,16 +1,16 @@
-# Graph Report - gpt-drive-action  (2026-05-07)
+# Graph Report - gpt-drive-action  (2026-05-08)
 
 ## Corpus Check
 - 4 files · ~2,784 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 56 nodes · 52 edges · 9 communities
+- 59 nodes · 55 edges · 9 communities
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `eb4c721a`
+- Built from commit: `e22e24b3`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -23,6 +23,7 @@
 - [[_COMMUNITY_Community 5|Community 5]]
 - [[_COMMUNITY_Community 6|Community 6]]
 - [[_COMMUNITY_Community 7|Community 7]]
+- [[_COMMUNITY_Community 8|Community 8]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `CLAUDE.md - fmunizmcorp/gpt-drive-action` - 13 edges
@@ -55,34 +56,38 @@ Nodes (6): 10. CHECKLIST DE ENTREGA OBRIGATORIO, Codigo, Deploy, Documentacao, S
 
 ### Community 3 - "Community 3"
 Cohesion: 0.4
-Nodes (5): 7. ESTRUTURA DO REPO, Arquivos da raiz (amostra), code:block2 (.claude), code:block3 (.gitignore), Diretorios principais
+Nodes (3): app, express, url
 
 ### Community 4 - "Community 4"
 Cohesion: 0.4
-Nodes (4): Aprendizados, Aprendizados - fmunizmcorp/gpt-drive-action, Como usar, YYYY-MM-DD - Titulo do aprendizado [#categoria]
+Nodes (5): 7. ESTRUTURA DO REPO, Arquivos da raiz (amostra), code:block2 (.claude), code:block3 (.gitignore), Diretorios principais
 
 ### Community 5 - "Community 5"
 Cohesion: 0.4
-Nodes (4): Como usar, Historico, Historico de Sessoes - fmunizmcorp/gpt-drive-action, YYYY-MM-DD - vX.Y.Z - Titulo da sessao
+Nodes (4): Aprendizados, Aprendizados - fmunizmcorp/gpt-drive-action, Como usar, YYYY-MM-DD - Titulo do aprendizado [#categoria]
 
 ### Community 6 - "Community 6"
+Cohesion: 0.4
+Nodes (4): Como usar, Historico, Historico de Sessoes - fmunizmcorp/gpt-drive-action, YYYY-MM-DD - vX.Y.Z - Titulo da sessao
+
+### Community 7 - "Community 7"
 Cohesion: 0.5
 Nodes (4): 3. SQUAD DE IAs (skills aplicaveis), Quando usar cada skill, Skills BASAIS (sempre validas em qualquer tarefa), Skills ESPECIFICAS deste projeto
 
-### Community 7 - "Community 7"
+### Community 8 - "Community 8"
 Cohesion: 0.67
 Nodes (3): 9. APRENDIZADO E ATUALIZACAO CONTINUA, Regra de ouro: SEMPRE atualize o conhecimento do projeto, Triggers para regenerar grafo
 
 ## Knowledge Gaps
-- **35 isolated node(s):** `REGRA -1 - O USUARIO E LEIGO. NUNCA PERGUNTE SOBRE PERSONA, SKILL OU CONFIGURACAO.`, `REGRA 0 - VOCE E O LIDER + ORQUESTRADOR DESTE REPO. ATIVO. AGORA.`, `REGRA 1 - SKILLS BASAIS - SEMPRE ON. NAO PERGUNTE. NAO ESCOLHA.`, `REGRA 2 - SKILLS CONDICIONAIS PARA REPO DE DESENVOLVIMENTO`, `Padroes Brasil obrigatorios em cada arquivo gerado` (+30 more)
+- **38 isolated node(s):** `express`, `app`, `url`, `REGRA -1 - O USUARIO E LEIGO. NUNCA PERGUNTE SOBRE PERSONA, SKILL OU CONFIGURACAO.`, `REGRA 0 - VOCE E O LIDER + ORQUESTRADOR DESTE REPO. ATIVO. AGORA.` (+33 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `CLAUDE.md - fmunizmcorp/gpt-drive-action` connect `Community 1` to `Community 0`, `Community 2`, `Community 3`, `Community 6`, `Community 7`?**
-  _High betweenness centrality (0.529) - this node is a cross-community bridge._
+- **Why does `CLAUDE.md - fmunizmcorp/gpt-drive-action` connect `Community 1` to `Community 0`, `Community 2`, `Community 4`, `Community 7`, `Community 8`?**
+  _High betweenness centrality (0.475) - this node is a cross-community bridge._
 - **Why does `10. CHECKLIST DE ENTREGA OBRIGATORIO` connect `Community 2` to `Community 1`?**
-  _High betweenness centrality (0.135) - this node is a cross-community bridge._
-- **What connects `REGRA -1 - O USUARIO E LEIGO. NUNCA PERGUNTE SOBRE PERSONA, SKILL OU CONFIGURACAO.`, `REGRA 0 - VOCE E O LIDER + ORQUESTRADOR DESTE REPO. ATIVO. AGORA.`, `REGRA 1 - SKILLS BASAIS - SEMPRE ON. NAO PERGUNTE. NAO ESCOLHA.` to the rest of the system?**
-  _35 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.121) - this node is a cross-community bridge._
+- **What connects `express`, `app`, `url` to the rest of the system?**
+  _38 weakly-connected nodes found - possible documentation gaps or missing edges._
