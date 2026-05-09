@@ -542,9 +542,9 @@
       "source_file": "index.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "index_js",
-      "target": "gpt_drive_action_index_express",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_index_express"
     },
     {
       "relation": "contains",
@@ -562,9 +562,9 @@
       "source_file": "index.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "index_js",
-      "target": "gpt_drive_action_index_app",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_index_app"
     },
     {
       "relation": "contains",
@@ -572,9 +572,9 @@
       "source_file": "index.js",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "index_js",
-      "target": "gpt_drive_action_index_url",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_index_url"
     },
     {
       "relation": "contains",
@@ -1088,5 +1088,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "e22e24b3f026dce8bd62e406fbdddc30c353d325"
+  "built_at_commit": "86994ffe0fb58e9cc1141112aa2ff9a35e397fcc"
 }
