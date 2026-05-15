@@ -4,6 +4,420 @@
   "graph": {},
   "nodes": [
     {
+      "label": "openapi.json",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L1",
+      "id": "openapi_json",
+      "community": 11,
+      "norm_label": "openapi.json"
+    },
+    {
+      "label": "openapi",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L2",
+      "id": "gpt_drive_action_openapi_openapi",
+      "community": 11,
+      "norm_label": "openapi"
+    },
+    {
+      "label": "info",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L3",
+      "id": "gpt_drive_action_openapi_info",
+      "community": 11,
+      "norm_label": "info"
+    },
+    {
+      "label": "title",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L3",
+      "id": "gpt_drive_action_openapi_info_title",
+      "community": 11,
+      "norm_label": "title"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L3",
+      "id": "gpt_drive_action_openapi_info_version",
+      "community": 11,
+      "norm_label": "version"
+    },
+    {
+      "label": "servers",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L4",
+      "id": "gpt_drive_action_openapi_servers",
+      "community": 11,
+      "norm_label": "servers"
+    },
+    {
+      "label": "paths",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L5",
+      "id": "gpt_drive_action_openapi_paths",
+      "community": 9,
+      "norm_label": "paths"
+    },
+    {
+      "label": "/health",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L6",
+      "id": "gpt_drive_action_openapi_paths_health",
+      "community": 9,
+      "norm_label": "/health"
+    },
+    {
+      "label": "get",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L6",
+      "id": "gpt_drive_action_openapi_health_get",
+      "community": 9,
+      "norm_label": "get"
+    },
+    {
+      "label": "operationId",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L6",
+      "id": "gpt_drive_action_openapi_get_operationid",
+      "community": 9,
+      "norm_label": "operationid"
+    },
+    {
+      "label": "responses",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L6",
+      "id": "gpt_drive_action_openapi_get_responses",
+      "community": 9,
+      "norm_label": "responses"
+    },
+    {
+      "label": "200",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L6",
+      "id": "gpt_drive_action_openapi_responses_200",
+      "community": 7,
+      "norm_label": "200"
+    },
+    {
+      "label": "description",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L6",
+      "id": "gpt_drive_action_openapi_200_description",
+      "community": 7,
+      "norm_label": "description"
+    },
+    {
+      "label": "/auth/url",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L7",
+      "id": "gpt_drive_action_openapi_paths_auth_url",
+      "community": 9,
+      "norm_label": "/auth/url"
+    },
+    {
+      "label": "get",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L8",
+      "id": "gpt_drive_action_openapi_auth_url_get",
+      "community": 9,
+      "norm_label": "get"
+    },
+    {
+      "label": "parameters",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L10",
+      "id": "gpt_drive_action_openapi_get_parameters",
+      "community": 9,
+      "norm_label": "parameters"
+    },
+    {
+      "label": "400",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L13",
+      "id": "gpt_drive_action_openapi_responses_400",
+      "community": 9,
+      "norm_label": "400"
+    },
+    {
+      "label": "description",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L13",
+      "id": "gpt_drive_action_openapi_400_description",
+      "community": 9,
+      "norm_label": "description"
+    },
+    {
+      "label": "/drive/list",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L16",
+      "id": "gpt_drive_action_openapi_paths_drive_list",
+      "community": 9,
+      "norm_label": "/drive/list"
+    },
+    {
+      "label": "get",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L17",
+      "id": "gpt_drive_action_openapi_drive_list_get",
+      "community": 9,
+      "norm_label": "get"
+    },
+    {
+      "label": "401",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L25",
+      "id": "gpt_drive_action_openapi_responses_401",
+      "community": 7,
+      "norm_label": "401"
+    },
+    {
+      "label": "description",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L25",
+      "id": "gpt_drive_action_openapi_401_description",
+      "community": 7,
+      "norm_label": "description"
+    },
+    {
+      "label": "/drive/create-folder",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L28",
+      "id": "gpt_drive_action_openapi_paths_drive_create_folder",
+      "community": 7,
+      "norm_label": "/drive/create-folder"
+    },
+    {
+      "label": "post",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L29",
+      "id": "gpt_drive_action_openapi_drive_create_folder_post",
+      "community": 7,
+      "norm_label": "post"
+    },
+    {
+      "label": "operationId",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L30",
+      "id": "gpt_drive_action_openapi_post_operationid",
+      "community": 7,
+      "norm_label": "operationid"
+    },
+    {
+      "label": "parameters",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L31",
+      "id": "gpt_drive_action_openapi_post_parameters",
+      "community": 7,
+      "norm_label": "parameters"
+    },
+    {
+      "label": "requestBody",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L34",
+      "id": "gpt_drive_action_openapi_post_requestbody",
+      "community": 7,
+      "norm_label": "requestbody"
+    },
+    {
+      "label": "required",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L35",
+      "id": "gpt_drive_action_openapi_requestbody_required",
+      "community": 7,
+      "norm_label": "required"
+    },
+    {
+      "label": "content",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L36",
+      "id": "gpt_drive_action_openapi_requestbody_content",
+      "community": 7,
+      "norm_label": "content"
+    },
+    {
+      "label": "application/json",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L36",
+      "id": "gpt_drive_action_openapi_content_application_json",
+      "community": 7,
+      "norm_label": "application/json"
+    },
+    {
+      "label": "schema",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L37",
+      "id": "gpt_drive_action_openapi_application_json_schema",
+      "community": 7,
+      "norm_label": "schema"
+    },
+    {
+      "label": "responses",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L42",
+      "id": "gpt_drive_action_openapi_post_responses",
+      "community": 7,
+      "norm_label": "responses"
+    },
+    {
+      "label": "/drive/create-file",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L45",
+      "id": "gpt_drive_action_openapi_paths_drive_create_file",
+      "community": 7,
+      "norm_label": "/drive/create-file"
+    },
+    {
+      "label": "post",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L46",
+      "id": "gpt_drive_action_openapi_drive_create_file_post",
+      "community": 7,
+      "norm_label": "post"
+    },
+    {
+      "label": "/drive/metadata/{id}",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L64",
+      "id": "gpt_drive_action_openapi_paths_drive_metadata_id",
+      "community": 9,
+      "norm_label": "/drive/metadata/{id}"
+    },
+    {
+      "label": "get",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L65",
+      "id": "gpt_drive_action_openapi_drive_metadata_id_get",
+      "community": 9,
+      "norm_label": "get"
+    },
+    {
+      "label": "/drive/download/{id}",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L74",
+      "id": "gpt_drive_action_openapi_paths_drive_download_id",
+      "community": 9,
+      "norm_label": "/drive/download/{id}"
+    },
+    {
+      "label": "get",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L75",
+      "id": "gpt_drive_action_openapi_drive_download_id_get",
+      "community": 9,
+      "norm_label": "get"
+    },
+    {
+      "label": "/drive/update/{id}",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L84",
+      "id": "gpt_drive_action_openapi_paths_drive_update_id",
+      "community": 7,
+      "norm_label": "/drive/update/{id}"
+    },
+    {
+      "label": "patch",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L85",
+      "id": "gpt_drive_action_openapi_drive_update_id_patch",
+      "community": 7,
+      "norm_label": "patch"
+    },
+    {
+      "label": "operationId",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L86",
+      "id": "gpt_drive_action_openapi_patch_operationid",
+      "community": 7,
+      "norm_label": "operationid"
+    },
+    {
+      "label": "parameters",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L87",
+      "id": "gpt_drive_action_openapi_patch_parameters",
+      "community": 7,
+      "norm_label": "parameters"
+    },
+    {
+      "label": "requestBody",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L91",
+      "id": "gpt_drive_action_openapi_patch_requestbody",
+      "community": 7,
+      "norm_label": "requestbody"
+    },
+    {
+      "label": "responses",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L102",
+      "id": "gpt_drive_action_openapi_patch_responses",
+      "community": 7,
+      "norm_label": "responses"
+    },
+    {
+      "label": "/legal",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L105",
+      "id": "gpt_drive_action_openapi_paths_legal",
+      "community": 9,
+      "norm_label": "/legal"
+    },
+    {
+      "label": "get",
+      "file_type": "code",
+      "source_file": "openapi.json",
+      "source_location": "L105",
+      "id": "gpt_drive_action_openapi_legal_get",
+      "community": 9,
+      "norm_label": "get"
+    },
+    {
       "label": "index.js",
       "file_type": "code",
       "source_file": "index.js",
@@ -47,6 +461,285 @@
       "id": "gpt_drive_action_index_url",
       "community": 3,
       "norm_label": "url"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "id": "package_json",
+      "community": 10,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "id": "gpt_drive_action_package_name",
+      "community": 10,
+      "norm_label": "name"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "id": "gpt_drive_action_package_version",
+      "community": 10,
+      "norm_label": "version"
+    },
+    {
+      "label": "main",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "id": "gpt_drive_action_package_main",
+      "community": 10,
+      "norm_label": "main"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "id": "gpt_drive_action_package_type",
+      "community": 10,
+      "norm_label": "type"
+    },
+    {
+      "label": "engines",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "id": "gpt_drive_action_package_engines",
+      "community": 10,
+      "norm_label": "engines"
+    },
+    {
+      "label": "node",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "id": "gpt_drive_action_package_engines_node",
+      "community": 10,
+      "norm_label": "node"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "id": "gpt_drive_action_package_scripts",
+      "community": 10,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "start",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "id": "gpt_drive_action_package_scripts_start",
+      "community": 10,
+      "norm_label": "start"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "id": "gpt_drive_action_package_dependencies",
+      "community": 10,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "express",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "id": "gpt_drive_action_package_dependencies_express",
+      "community": 10,
+      "norm_label": "express"
+    },
+    {
+      "label": "node-fetch",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "id": "gpt_drive_action_package_dependencies_node_fetch",
+      "community": 10,
+      "norm_label": "node-fetch"
+    },
+    {
+      "label": "manifest.json",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L1",
+      "id": "manifest_json",
+      "community": 8,
+      "norm_label": "manifest.json"
+    },
+    {
+      "label": "schema_version",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L2",
+      "id": "gpt_drive_action_manifest_schema_version",
+      "community": 8,
+      "norm_label": "schema_version"
+    },
+    {
+      "label": "name_for_human",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L3",
+      "id": "gpt_drive_action_manifest_name_for_human",
+      "community": 8,
+      "norm_label": "name_for_human"
+    },
+    {
+      "label": "name_for_model",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L4",
+      "id": "gpt_drive_action_manifest_name_for_model",
+      "community": 8,
+      "norm_label": "name_for_model"
+    },
+    {
+      "label": "description_for_human",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L5",
+      "id": "gpt_drive_action_manifest_description_for_human",
+      "community": 8,
+      "norm_label": "description_for_human"
+    },
+    {
+      "label": "description_for_model",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L6",
+      "id": "gpt_drive_action_manifest_description_for_model",
+      "community": 8,
+      "norm_label": "description_for_model"
+    },
+    {
+      "label": "auth",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L7",
+      "id": "gpt_drive_action_manifest_auth",
+      "community": 8,
+      "norm_label": "auth"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L8",
+      "id": "gpt_drive_action_manifest_auth_type",
+      "community": 8,
+      "norm_label": "type"
+    },
+    {
+      "label": "client_url",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L9",
+      "id": "gpt_drive_action_manifest_auth_client_url",
+      "community": 8,
+      "norm_label": "client_url"
+    },
+    {
+      "label": "scope",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L10",
+      "id": "gpt_drive_action_manifest_auth_scope",
+      "community": 8,
+      "norm_label": "scope"
+    },
+    {
+      "label": "authorization_url",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L11",
+      "id": "gpt_drive_action_manifest_auth_authorization_url",
+      "community": 8,
+      "norm_label": "authorization_url"
+    },
+    {
+      "label": "authorization_content_type",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L12",
+      "id": "gpt_drive_action_manifest_auth_authorization_content_type",
+      "community": 8,
+      "norm_label": "authorization_content_type"
+    },
+    {
+      "label": "verification_tokens",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L13",
+      "id": "gpt_drive_action_manifest_auth_verification_tokens",
+      "community": 8,
+      "norm_label": "verification_tokens"
+    },
+    {
+      "label": "api",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L15",
+      "id": "gpt_drive_action_manifest_api",
+      "community": 8,
+      "norm_label": "api"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L16",
+      "id": "gpt_drive_action_manifest_api_type",
+      "community": 8,
+      "norm_label": "type"
+    },
+    {
+      "label": "url",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L17",
+      "id": "gpt_drive_action_manifest_api_url",
+      "community": 8,
+      "norm_label": "url"
+    },
+    {
+      "label": "is_user_authenticated",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L18",
+      "id": "gpt_drive_action_manifest_api_is_user_authenticated",
+      "community": 8,
+      "norm_label": "is_user_authenticated"
+    },
+    {
+      "label": "contact_email",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L20",
+      "id": "gpt_drive_action_manifest_contact_email",
+      "community": 8,
+      "norm_label": "contact_email"
+    },
+    {
+      "label": "legal_info_url",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L21",
+      "id": "gpt_drive_action_manifest_legal_info_url",
+      "community": 8,
+      "norm_label": "legal_info_url"
     },
     {
       "label": "CLAUDE.md",
@@ -216,7 +909,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L218",
       "id": "gpt_drive_action_claude_3_squad_de_ias_skills_aplicaveis",
-      "community": 7,
+      "community": 1,
       "norm_label": "3. squad de ias (skills aplicaveis)"
     },
     {
@@ -225,7 +918,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L220",
       "id": "gpt_drive_action_claude_skills_basais_sempre_validas_em_qualquer_tarefa",
-      "community": 7,
+      "community": 1,
       "norm_label": "skills basais (sempre validas em qualquer tarefa)"
     },
     {
@@ -234,7 +927,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L228",
       "id": "gpt_drive_action_claude_skills_especificas_deste_projeto",
-      "community": 7,
+      "community": 1,
       "norm_label": "skills especificas deste projeto"
     },
     {
@@ -243,7 +936,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L233",
       "id": "gpt_drive_action_claude_quando_usar_cada_skill",
-      "community": 7,
+      "community": 1,
       "norm_label": "quando usar cada skill"
     },
     {
@@ -360,7 +1053,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L333",
       "id": "gpt_drive_action_claude_9_aprendizado_e_atualizacao_continua",
-      "community": 8,
+      "community": 1,
       "norm_label": "9. aprendizado e atualizacao continua"
     },
     {
@@ -369,7 +1062,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L335",
       "id": "gpt_drive_action_claude_regra_de_ouro_sempre_atualize_o_conhecimento_do_projeto",
-      "community": 8,
+      "community": 1,
       "norm_label": "regra de ouro: sempre atualize o conhecimento do projeto"
     },
     {
@@ -378,7 +1071,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L361",
       "id": "gpt_drive_action_claude_triggers_para_regenerar_grafo",
-      "community": 8,
+      "community": 1,
       "norm_label": "triggers para regenerar grafo"
     },
     {
@@ -539,6 +1232,686 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "openapi_json",
+      "target": "gpt_drive_action_openapi_openapi",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "openapi_json",
+      "target": "gpt_drive_action_openapi_info",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "openapi_json",
+      "target": "gpt_drive_action_openapi_servers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "openapi_json",
+      "target": "gpt_drive_action_openapi_paths",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_info",
+      "target": "gpt_drive_action_openapi_info_title",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_info",
+      "target": "gpt_drive_action_openapi_info_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_paths",
+      "target": "gpt_drive_action_openapi_paths_health",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_paths",
+      "target": "gpt_drive_action_openapi_paths_auth_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_paths",
+      "target": "gpt_drive_action_openapi_paths_drive_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_paths",
+      "target": "gpt_drive_action_openapi_paths_drive_create_folder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_paths",
+      "target": "gpt_drive_action_openapi_paths_drive_create_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_paths",
+      "target": "gpt_drive_action_openapi_paths_drive_metadata_id",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_paths",
+      "target": "gpt_drive_action_openapi_paths_drive_download_id",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_paths",
+      "target": "gpt_drive_action_openapi_paths_drive_update_id",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_paths",
+      "target": "gpt_drive_action_openapi_paths_legal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_paths_health",
+      "target": "gpt_drive_action_openapi_health_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_health_get",
+      "target": "gpt_drive_action_openapi_get_operationid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_health_get",
+      "target": "gpt_drive_action_openapi_get_responses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_auth_url_get",
+      "target": "gpt_drive_action_openapi_get_operationid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_drive_list_get",
+      "target": "gpt_drive_action_openapi_get_operationid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_drive_metadata_id_get",
+      "target": "gpt_drive_action_openapi_get_operationid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_drive_download_id_get",
+      "target": "gpt_drive_action_openapi_get_operationid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_legal_get",
+      "target": "gpt_drive_action_openapi_get_operationid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_get_responses",
+      "target": "gpt_drive_action_openapi_responses_200",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_auth_url_get",
+      "target": "gpt_drive_action_openapi_get_responses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_get_responses",
+      "target": "gpt_drive_action_openapi_responses_400",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_drive_list_get",
+      "target": "gpt_drive_action_openapi_get_responses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_get_responses",
+      "target": "gpt_drive_action_openapi_responses_401",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_drive_metadata_id_get",
+      "target": "gpt_drive_action_openapi_get_responses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_drive_download_id_get",
+      "target": "gpt_drive_action_openapi_get_responses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_legal_get",
+      "target": "gpt_drive_action_openapi_get_responses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_responses_200",
+      "target": "gpt_drive_action_openapi_200_description",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_post_responses",
+      "target": "gpt_drive_action_openapi_responses_200",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_patch_responses",
+      "target": "gpt_drive_action_openapi_responses_200",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_paths_auth_url",
+      "target": "gpt_drive_action_openapi_auth_url_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_auth_url_get",
+      "target": "gpt_drive_action_openapi_get_parameters",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_drive_list_get",
+      "target": "gpt_drive_action_openapi_get_parameters",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_drive_metadata_id_get",
+      "target": "gpt_drive_action_openapi_get_parameters",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_drive_download_id_get",
+      "target": "gpt_drive_action_openapi_get_parameters",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_responses_400",
+      "target": "gpt_drive_action_openapi_400_description",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_paths_drive_list",
+      "target": "gpt_drive_action_openapi_drive_list_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_responses_401",
+      "target": "gpt_drive_action_openapi_401_description",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_post_responses",
+      "target": "gpt_drive_action_openapi_responses_401",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_patch_responses",
+      "target": "gpt_drive_action_openapi_responses_401",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_paths_drive_create_folder",
+      "target": "gpt_drive_action_openapi_drive_create_folder_post",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_drive_create_folder_post",
+      "target": "gpt_drive_action_openapi_post_operationid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_drive_create_folder_post",
+      "target": "gpt_drive_action_openapi_post_parameters",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_drive_create_folder_post",
+      "target": "gpt_drive_action_openapi_post_requestbody",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_drive_create_folder_post",
+      "target": "gpt_drive_action_openapi_post_responses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_drive_create_file_post",
+      "target": "gpt_drive_action_openapi_post_operationid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_drive_create_file_post",
+      "target": "gpt_drive_action_openapi_post_parameters",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_post_requestbody",
+      "target": "gpt_drive_action_openapi_requestbody_required",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_post_requestbody",
+      "target": "gpt_drive_action_openapi_requestbody_content",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_drive_create_file_post",
+      "target": "gpt_drive_action_openapi_post_requestbody",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_patch_requestbody",
+      "target": "gpt_drive_action_openapi_requestbody_required",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_requestbody_content",
+      "target": "gpt_drive_action_openapi_content_application_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_patch_requestbody",
+      "target": "gpt_drive_action_openapi_requestbody_content",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_content_application_json",
+      "target": "gpt_drive_action_openapi_application_json_schema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_drive_create_file_post",
+      "target": "gpt_drive_action_openapi_post_responses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_paths_drive_create_file",
+      "target": "gpt_drive_action_openapi_drive_create_file_post",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_paths_drive_metadata_id",
+      "target": "gpt_drive_action_openapi_drive_metadata_id_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_paths_drive_download_id",
+      "target": "gpt_drive_action_openapi_drive_download_id_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_paths_drive_update_id",
+      "target": "gpt_drive_action_openapi_drive_update_id_patch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_drive_update_id_patch",
+      "target": "gpt_drive_action_openapi_patch_operationid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_drive_update_id_patch",
+      "target": "gpt_drive_action_openapi_patch_parameters",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_drive_update_id_patch",
+      "target": "gpt_drive_action_openapi_patch_requestbody",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_drive_update_id_patch",
+      "target": "gpt_drive_action_openapi_patch_responses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "gpt_drive_action_openapi_paths_legal",
+      "target": "gpt_drive_action_openapi_legal_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "index.js",
       "source_location": "L1",
       "weight": 1.0,
@@ -575,6 +1948,296 @@
       "confidence_score": 1.0,
       "source": "index_js",
       "target": "gpt_drive_action_index_url"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "gpt_drive_action_package_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "gpt_drive_action_package_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "gpt_drive_action_package_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "gpt_drive_action_package_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "gpt_drive_action_package_engines",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "gpt_drive_action_package_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "gpt_drive_action_package_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "gpt_drive_action_package_engines",
+      "target": "gpt_drive_action_package_engines_node",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "gpt_drive_action_package_scripts",
+      "target": "gpt_drive_action_package_scripts_start",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "gpt_drive_action_package_dependencies",
+      "target": "gpt_drive_action_package_dependencies_express",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "gpt_drive_action_package_dependencies",
+      "target": "gpt_drive_action_package_dependencies_node_fetch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "manifest_json",
+      "target": "gpt_drive_action_manifest_schema_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "manifest_json",
+      "target": "gpt_drive_action_manifest_name_for_human",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "manifest_json",
+      "target": "gpt_drive_action_manifest_name_for_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "manifest_json",
+      "target": "gpt_drive_action_manifest_description_for_human",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "manifest_json",
+      "target": "gpt_drive_action_manifest_description_for_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "manifest_json",
+      "target": "gpt_drive_action_manifest_auth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "manifest_json",
+      "target": "gpt_drive_action_manifest_api",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "manifest_json",
+      "target": "gpt_drive_action_manifest_contact_email",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "manifest_json",
+      "target": "gpt_drive_action_manifest_legal_info_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "gpt_drive_action_manifest_auth",
+      "target": "gpt_drive_action_manifest_auth_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "gpt_drive_action_manifest_auth",
+      "target": "gpt_drive_action_manifest_auth_client_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "gpt_drive_action_manifest_auth",
+      "target": "gpt_drive_action_manifest_auth_scope",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "gpt_drive_action_manifest_auth",
+      "target": "gpt_drive_action_manifest_auth_authorization_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "gpt_drive_action_manifest_auth",
+      "target": "gpt_drive_action_manifest_auth_authorization_content_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "gpt_drive_action_manifest_auth",
+      "target": "gpt_drive_action_manifest_auth_verification_tokens",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "gpt_drive_action_manifest_api",
+      "target": "gpt_drive_action_manifest_api_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "gpt_drive_action_manifest_api",
+      "target": "gpt_drive_action_manifest_api_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "gpt_drive_action_manifest_api",
+      "target": "gpt_drive_action_manifest_api_is_user_authenticated",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1088,5 +2751,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "97af6186f4c69d80bca8caa5526486034174ec6d"
+  "built_at_commit": "9ff0070900f7d993c6430b7429cb186f751fb32e"
 }

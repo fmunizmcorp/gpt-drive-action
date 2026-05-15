@@ -1,18 +1,37 @@
 {
+  "/home/runner/work/gpt-drive-action/gpt-drive-action/openapi.json": {
+    "mtime": 1778834835.4036431,
+    "ast_hash": "fb076965e204cc1ebdd1c2f2127b3141",
+    "semantic_hash": ""
+  },
   "/home/runner/work/gpt-drive-action/gpt-drive-action/index.js": {
-    "mtime": 1778747724.7315269,
-    "hash": "39e2e376bba274cad2c691ead5bb82fc"
+    "mtime": 1778834835.4036431,
+    "ast_hash": "39e2e376bba274cad2c691ead5bb82fc",
+    "semantic_hash": ""
+  },
+  "/home/runner/work/gpt-drive-action/gpt-drive-action/package.json": {
+    "mtime": 1778834835.4036431,
+    "ast_hash": "87a61d8124851afe392527d65e3374e8",
+    "semantic_hash": ""
+  },
+  "/home/runner/work/gpt-drive-action/gpt-drive-action/manifest.json": {
+    "mtime": 1778834835.4036431,
+    "ast_hash": "ec1517b83ed4ae444dbbd6ce7c8b3491",
+    "semantic_hash": ""
   },
   "/home/runner/work/gpt-drive-action/gpt-drive-action/CLAUDE.md": {
-    "mtime": 1778747724.731059,
-    "hash": "74535b55384fa2079e0504675ce97f82"
+    "mtime": 1778834835.4030976,
+    "ast_hash": "74535b55384fa2079e0504675ce97f82",
+    "semantic_hash": ""
   },
   "/home/runner/work/gpt-drive-action/gpt-drive-action/docs/APRENDIZADOS.md": {
-    "mtime": 1778747724.731059,
-    "hash": "49028c48f5ce93db22a58230029f32fa"
+    "mtime": 1778834835.4030976,
+    "ast_hash": "49028c48f5ce93db22a58230029f32fa",
+    "semantic_hash": ""
   },
   "/home/runner/work/gpt-drive-action/gpt-drive-action/docs/HISTORICO.md": {
-    "mtime": 1778747724.7313855,
-    "hash": "67fa9e62c59f6232c587e3105f314d82"
+    "mtime": 1778834835.4034305,
+    "ast_hash": "67fa9e62c59f6232c587e3105f314d82",
+    "semantic_hash": ""
   }
 }
