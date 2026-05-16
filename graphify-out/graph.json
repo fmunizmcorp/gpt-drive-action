@@ -1080,7 +1080,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L371",
       "id": "gpt_drive_action_claude_10_checklist_de_entrega_obrigatorio",
-      "community": 2,
+      "community": 1,
       "norm_label": "10. checklist de entrega obrigatorio"
     },
     {
@@ -1089,7 +1089,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L375",
       "id": "gpt_drive_action_claude_codigo",
-      "community": 2,
+      "community": 1,
       "norm_label": "codigo"
     },
     {
@@ -1098,7 +1098,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L383",
       "id": "gpt_drive_action_claude_testes",
-      "community": 2,
+      "community": 1,
       "norm_label": "testes"
     },
     {
@@ -1107,7 +1107,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L391",
       "id": "gpt_drive_action_claude_documentacao",
-      "community": 2,
+      "community": 1,
       "norm_label": "documentacao"
     },
     {
@@ -1116,7 +1116,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L399",
       "id": "gpt_drive_action_claude_deploy",
-      "community": 2,
+      "community": 1,
       "norm_label": "deploy"
     },
     {
@@ -1125,7 +1125,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L407",
       "id": "gpt_drive_action_claude_sinalizar_conclusao",
-      "community": 2,
+      "community": 1,
       "norm_label": "sinalizar conclusao"
     },
     {
@@ -1226,6 +1226,294 @@
       "id": "docs_historico_yyyy_mm_dd_vx_y_z_titulo_da_sessao",
       "community": 6,
       "norm_label": "yyyy-mm-dd - vx.y.z - titulo da sessao"
+    },
+    {
+      "label": "skills.md",
+      "file_type": "document",
+      "source_file": ".claude/skills.md",
+      "source_location": "L1",
+      "id": "claude_skills_md",
+      "community": 13,
+      "norm_label": "skills.md"
+    },
+    {
+      "label": "Skills aplicaveis (Node.js / TypeScript)",
+      "file_type": "document",
+      "source_file": ".claude/skills.md",
+      "source_location": "L1",
+      "id": "claude_skills_skills_aplicaveis_node_js_typescript",
+      "community": 13,
+      "norm_label": "skills aplicaveis (node.js / typescript)"
+    },
+    {
+      "label": "Basais (sempre)",
+      "file_type": "document",
+      "source_file": ".claude/skills.md",
+      "source_location": "L3",
+      "id": "claude_skills_basais_sempre",
+      "community": 13,
+      "norm_label": "basais (sempre)"
+    },
+    {
+      "label": "Condicionais",
+      "file_type": "document",
+      "source_file": ".claude/skills.md",
+      "source_location": "L10",
+      "id": "claude_skills_condicionais",
+      "community": 13,
+      "norm_label": "condicionais"
+    },
+    {
+      "label": "Padroes obrigatorios Node/TS",
+      "file_type": "document",
+      "source_file": ".claude/skills.md",
+      "source_location": "L14",
+      "id": "claude_skills_padroes_obrigatorios_node_ts",
+      "community": 13,
+      "norm_label": "padroes obrigatorios node/ts"
+    },
+    {
+      "label": "prompts.md",
+      "file_type": "document",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L1",
+      "id": "claude_prompts_md",
+      "community": 2,
+      "norm_label": "prompts.md"
+    },
+    {
+      "label": "Prompts e Templates - fmunizmcorp/gpt-drive-action",
+      "file_type": "document",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L1",
+      "id": "claude_prompts_prompts_e_templates_fmunizmcorp_gpt_drive_action",
+      "community": 2,
+      "norm_label": "prompts e templates - fmunizmcorp/gpt-drive-action"
+    },
+    {
+      "label": "Template 1: Comeco de sessao",
+      "file_type": "document",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L6",
+      "id": "claude_prompts_template_1_comeco_de_sessao",
+      "community": 2,
+      "norm_label": "template 1: comeco de sessao"
+    },
+    {
+      "label": "code:block1 (Trabalhando em fmunizmcorp/gpt-drive-action. Como Engenheiro)",
+      "file_type": "document",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L8",
+      "id": "claude_prompts_codeblock_1",
+      "community": 2,
+      "norm_label": "code:block1 (trabalhando em fmunizmcorp/gpt-drive-action. como engenheiro)"
+    },
+    {
+      "label": "Template 2: Implementacao de feature",
+      "file_type": "document",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L17",
+      "id": "claude_prompts_template_2_implementacao_de_feature",
+      "community": 2,
+      "norm_label": "template 2: implementacao de feature"
+    },
+    {
+      "label": "code:block2 (Feature nova em fmunizmcorp/gpt-drive-action: <DESCRICAO>)",
+      "file_type": "document",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L19",
+      "id": "claude_prompts_codeblock_2",
+      "community": 2,
+      "norm_label": "code:block2 (feature nova em fmunizmcorp/gpt-drive-action: <descricao>)"
+    },
+    {
+      "label": "Template 3: Bug fix",
+      "file_type": "document",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L34",
+      "id": "claude_prompts_template_3_bug_fix",
+      "community": 2,
+      "norm_label": "template 3: bug fix"
+    },
+    {
+      "label": "code:block3 (Bug em fmunizmcorp/gpt-drive-action: <DESCRICAO + STACK TRAC)",
+      "file_type": "document",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L36",
+      "id": "claude_prompts_codeblock_3",
+      "community": 2,
+      "norm_label": "code:block3 (bug em fmunizmcorp/gpt-drive-action: <descricao + stack trac)"
+    },
+    {
+      "label": "Template 4: Auditoria/revisao",
+      "file_type": "document",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L48",
+      "id": "claude_prompts_template_4_auditoria_revisao",
+      "community": 2,
+      "norm_label": "template 4: auditoria/revisao"
+    },
+    {
+      "label": "code:block4 (Auditoria em fmunizmcorp/gpt-drive-action: <ESCOPO>)",
+      "file_type": "document",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L50",
+      "id": "claude_prompts_codeblock_4",
+      "community": 2,
+      "norm_label": "code:block4 (auditoria em fmunizmcorp/gpt-drive-action: <escopo>)"
+    },
+    {
+      "label": "Template 5: Deploy e validacao",
+      "file_type": "document",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L63",
+      "id": "claude_prompts_template_5_deploy_e_validacao",
+      "community": 2,
+      "norm_label": "template 5: deploy e validacao"
+    },
+    {
+      "label": "code:block5 (Deploy em fmunizmcorp/gpt-drive-action: versao <X.Y.Z>)",
+      "file_type": "document",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L65",
+      "id": "claude_prompts_codeblock_5",
+      "community": 2,
+      "norm_label": "code:block5 (deploy em fmunizmcorp/gpt-drive-action: versao <x.y.z>)"
+    },
+    {
+      "label": "Template 7: Atualizacao de skills",
+      "file_type": "document",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L80",
+      "id": "claude_prompts_template_7_atualizacao_de_skills",
+      "community": 2,
+      "norm_label": "template 7: atualizacao de skills"
+    },
+    {
+      "label": "code:block6 (Descobri novo padrao em fmunizmcorp/gpt-drive-action que val)",
+      "file_type": "document",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L82",
+      "id": "claude_prompts_codeblock_6",
+      "community": 2,
+      "norm_label": "code:block6 (descobri novo padrao em fmunizmcorp/gpt-drive-action que val)"
+    },
+    {
+      "label": "orquestrador.md",
+      "file_type": "document",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L1",
+      "id": "claude_orquestrador_md",
+      "community": 12,
+      "norm_label": "orquestrador.md"
+    },
+    {
+      "label": "Orquestrador - fmunizmcorp/gpt-drive-action",
+      "file_type": "document",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L1",
+      "id": "claude_orquestrador_orquestrador_fmunizmcorp_gpt_drive_action",
+      "community": 12,
+      "norm_label": "orquestrador - fmunizmcorp/gpt-drive-action"
+    },
+    {
+      "label": "Persona",
+      "file_type": "document",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L3",
+      "id": "claude_orquestrador_persona",
+      "community": 12,
+      "norm_label": "persona"
+    },
+    {
+      "label": "Missao",
+      "file_type": "document",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L7",
+      "id": "claude_orquestrador_missao",
+      "community": 12,
+      "norm_label": "missao"
+    },
+    {
+      "label": "Dominio de atuacao",
+      "file_type": "document",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L11",
+      "id": "claude_orquestrador_dominio_de_atuacao",
+      "community": 12,
+      "norm_label": "dominio de atuacao"
+    },
+    {
+      "label": "Stack",
+      "file_type": "document",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L15",
+      "id": "claude_orquestrador_stack",
+      "community": 12,
+      "norm_label": "stack"
+    },
+    {
+      "label": "Criticidade",
+      "file_type": "document",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L19",
+      "id": "claude_orquestrador_criticidade",
+      "community": 12,
+      "norm_label": "criticidade"
+    },
+    {
+      "label": "Squad sob sua coordenacao",
+      "file_type": "document",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L23",
+      "id": "claude_orquestrador_squad_sob_sua_coordenacao",
+      "community": 12,
+      "norm_label": "squad sob sua coordenacao"
+    },
+    {
+      "label": "Sempre disponiveis (basais)",
+      "file_type": "document",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L25",
+      "id": "claude_orquestrador_sempre_disponiveis_basais",
+      "community": 12,
+      "norm_label": "sempre disponiveis (basais)"
+    },
+    {
+      "label": "Especialistas deste projeto",
+      "file_type": "document",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L33",
+      "id": "claude_orquestrador_especialistas_deste_projeto",
+      "community": 12,
+      "norm_label": "especialistas deste projeto"
+    },
+    {
+      "label": "Triggers de skills (quando aplicar cada uma)",
+      "file_type": "document",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L38",
+      "id": "claude_orquestrador_triggers_de_skills_quando_aplicar_cada_uma",
+      "community": 12,
+      "norm_label": "triggers de skills (quando aplicar cada uma)"
+    },
+    {
+      "label": "Decisoes que voce (orquestrador) toma",
+      "file_type": "document",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L48",
+      "id": "claude_orquestrador_decisoes_que_voce_orquestrador_toma",
+      "community": 12,
+      "norm_label": "decisoes que voce (orquestrador) toma"
+    },
+    {
+      "label": "Decisoes que NAO sao suas",
+      "file_type": "document",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L57",
+      "id": "claude_orquestrador_decisoes_que_nao_sao_suas",
+      "community": 12,
+      "norm_label": "decisoes que nao sao suas"
     }
   ],
   "links": [
@@ -1235,9 +1523,9 @@
       "source_file": "openapi.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_json",
-      "target": "gpt_drive_action_openapi_openapi",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_openapi"
     },
     {
       "relation": "contains",
@@ -1245,9 +1533,9 @@
       "source_file": "openapi.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_json",
-      "target": "gpt_drive_action_openapi_info",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_info"
     },
     {
       "relation": "contains",
@@ -1255,9 +1543,9 @@
       "source_file": "openapi.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_json",
-      "target": "gpt_drive_action_openapi_servers",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_servers"
     },
     {
       "relation": "contains",
@@ -1265,9 +1553,9 @@
       "source_file": "openapi.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_json",
-      "target": "gpt_drive_action_openapi_paths",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_paths"
     },
     {
       "relation": "contains",
@@ -1275,9 +1563,9 @@
       "source_file": "openapi.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_info",
-      "target": "gpt_drive_action_openapi_info_title",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_info_title"
     },
     {
       "relation": "contains",
@@ -1285,9 +1573,9 @@
       "source_file": "openapi.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_info",
-      "target": "gpt_drive_action_openapi_info_version",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_info_version"
     },
     {
       "relation": "contains",
@@ -1295,9 +1583,9 @@
       "source_file": "openapi.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_paths",
-      "target": "gpt_drive_action_openapi_paths_health",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_paths_health"
     },
     {
       "relation": "contains",
@@ -1305,9 +1593,9 @@
       "source_file": "openapi.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_paths",
-      "target": "gpt_drive_action_openapi_paths_auth_url",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_paths_auth_url"
     },
     {
       "relation": "contains",
@@ -1315,9 +1603,9 @@
       "source_file": "openapi.json",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_paths",
-      "target": "gpt_drive_action_openapi_paths_drive_list",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_paths_drive_list"
     },
     {
       "relation": "contains",
@@ -1325,9 +1613,9 @@
       "source_file": "openapi.json",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_paths",
-      "target": "gpt_drive_action_openapi_paths_drive_create_folder",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_paths_drive_create_folder"
     },
     {
       "relation": "contains",
@@ -1335,9 +1623,9 @@
       "source_file": "openapi.json",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_paths",
-      "target": "gpt_drive_action_openapi_paths_drive_create_file",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_paths_drive_create_file"
     },
     {
       "relation": "contains",
@@ -1345,9 +1633,9 @@
       "source_file": "openapi.json",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_paths",
-      "target": "gpt_drive_action_openapi_paths_drive_metadata_id",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_paths_drive_metadata_id"
     },
     {
       "relation": "contains",
@@ -1355,9 +1643,9 @@
       "source_file": "openapi.json",
       "source_location": "L74",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_paths",
-      "target": "gpt_drive_action_openapi_paths_drive_download_id",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_paths_drive_download_id"
     },
     {
       "relation": "contains",
@@ -1365,9 +1653,9 @@
       "source_file": "openapi.json",
       "source_location": "L84",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_paths",
-      "target": "gpt_drive_action_openapi_paths_drive_update_id",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_paths_drive_update_id"
     },
     {
       "relation": "contains",
@@ -1375,9 +1663,9 @@
       "source_file": "openapi.json",
       "source_location": "L105",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_paths",
-      "target": "gpt_drive_action_openapi_paths_legal",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_paths_legal"
     },
     {
       "relation": "contains",
@@ -1385,9 +1673,9 @@
       "source_file": "openapi.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_paths_health",
-      "target": "gpt_drive_action_openapi_health_get",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_health_get"
     },
     {
       "relation": "contains",
@@ -1395,9 +1683,9 @@
       "source_file": "openapi.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_health_get",
-      "target": "gpt_drive_action_openapi_get_operationid",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_get_operationid"
     },
     {
       "relation": "contains",
@@ -1405,9 +1693,9 @@
       "source_file": "openapi.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_health_get",
-      "target": "gpt_drive_action_openapi_get_responses",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_get_responses"
     },
     {
       "relation": "contains",
@@ -1415,9 +1703,9 @@
       "source_file": "openapi.json",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_auth_url_get",
-      "target": "gpt_drive_action_openapi_get_operationid",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_get_operationid"
     },
     {
       "relation": "contains",
@@ -1425,9 +1713,9 @@
       "source_file": "openapi.json",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_drive_list_get",
-      "target": "gpt_drive_action_openapi_get_operationid",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_get_operationid"
     },
     {
       "relation": "contains",
@@ -1435,9 +1723,9 @@
       "source_file": "openapi.json",
       "source_location": "L66",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_drive_metadata_id_get",
-      "target": "gpt_drive_action_openapi_get_operationid",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_get_operationid"
     },
     {
       "relation": "contains",
@@ -1445,9 +1733,9 @@
       "source_file": "openapi.json",
       "source_location": "L76",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_drive_download_id_get",
-      "target": "gpt_drive_action_openapi_get_operationid",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_get_operationid"
     },
     {
       "relation": "contains",
@@ -1455,9 +1743,9 @@
       "source_file": "openapi.json",
       "source_location": "L105",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_legal_get",
-      "target": "gpt_drive_action_openapi_get_operationid",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_get_operationid"
     },
     {
       "relation": "contains",
@@ -1465,9 +1753,9 @@
       "source_file": "openapi.json",
       "source_location": "L105",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_get_responses",
-      "target": "gpt_drive_action_openapi_responses_200",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_responses_200"
     },
     {
       "relation": "contains",
@@ -1475,9 +1763,9 @@
       "source_file": "openapi.json",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_auth_url_get",
-      "target": "gpt_drive_action_openapi_get_responses",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_get_responses"
     },
     {
       "relation": "contains",
@@ -1485,9 +1773,9 @@
       "source_file": "openapi.json",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_get_responses",
-      "target": "gpt_drive_action_openapi_responses_400",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_responses_400"
     },
     {
       "relation": "contains",
@@ -1495,9 +1783,9 @@
       "source_file": "openapi.json",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_drive_list_get",
-      "target": "gpt_drive_action_openapi_get_responses",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_get_responses"
     },
     {
       "relation": "contains",
@@ -1505,9 +1793,9 @@
       "source_file": "openapi.json",
       "source_location": "L81",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_get_responses",
-      "target": "gpt_drive_action_openapi_responses_401",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_responses_401"
     },
     {
       "relation": "contains",
@@ -1515,9 +1803,9 @@
       "source_file": "openapi.json",
       "source_location": "L71",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_drive_metadata_id_get",
-      "target": "gpt_drive_action_openapi_get_responses",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_get_responses"
     },
     {
       "relation": "contains",
@@ -1525,9 +1813,9 @@
       "source_file": "openapi.json",
       "source_location": "L81",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_drive_download_id_get",
-      "target": "gpt_drive_action_openapi_get_responses",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_get_responses"
     },
     {
       "relation": "contains",
@@ -1535,9 +1823,9 @@
       "source_file": "openapi.json",
       "source_location": "L105",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_legal_get",
-      "target": "gpt_drive_action_openapi_get_responses",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_get_responses"
     },
     {
       "relation": "contains",
@@ -1545,9 +1833,9 @@
       "source_file": "openapi.json",
       "source_location": "L105",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_responses_200",
-      "target": "gpt_drive_action_openapi_200_description",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_200_description"
     },
     {
       "relation": "contains",
@@ -1555,9 +1843,9 @@
       "source_file": "openapi.json",
       "source_location": "L61",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_post_responses",
-      "target": "gpt_drive_action_openapi_responses_200",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_responses_200"
     },
     {
       "relation": "contains",
@@ -1565,9 +1853,9 @@
       "source_file": "openapi.json",
       "source_location": "L102",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_patch_responses",
-      "target": "gpt_drive_action_openapi_responses_200",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_responses_200"
     },
     {
       "relation": "contains",
@@ -1575,9 +1863,9 @@
       "source_file": "openapi.json",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_paths_auth_url",
-      "target": "gpt_drive_action_openapi_auth_url_get",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_auth_url_get"
     },
     {
       "relation": "contains",
@@ -1585,9 +1873,9 @@
       "source_file": "openapi.json",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_auth_url_get",
-      "target": "gpt_drive_action_openapi_get_parameters",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_get_parameters"
     },
     {
       "relation": "contains",
@@ -1595,9 +1883,9 @@
       "source_file": "openapi.json",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_drive_list_get",
-      "target": "gpt_drive_action_openapi_get_parameters",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_get_parameters"
     },
     {
       "relation": "contains",
@@ -1605,9 +1893,9 @@
       "source_file": "openapi.json",
       "source_location": "L67",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_drive_metadata_id_get",
-      "target": "gpt_drive_action_openapi_get_parameters",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_get_parameters"
     },
     {
       "relation": "contains",
@@ -1615,9 +1903,9 @@
       "source_file": "openapi.json",
       "source_location": "L77",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_drive_download_id_get",
-      "target": "gpt_drive_action_openapi_get_parameters",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_get_parameters"
     },
     {
       "relation": "contains",
@@ -1625,9 +1913,9 @@
       "source_file": "openapi.json",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_responses_400",
-      "target": "gpt_drive_action_openapi_400_description",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_400_description"
     },
     {
       "relation": "contains",
@@ -1635,9 +1923,9 @@
       "source_file": "openapi.json",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_paths_drive_list",
-      "target": "gpt_drive_action_openapi_drive_list_get",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_drive_list_get"
     },
     {
       "relation": "contains",
@@ -1645,9 +1933,9 @@
       "source_file": "openapi.json",
       "source_location": "L102",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_responses_401",
-      "target": "gpt_drive_action_openapi_401_description",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_401_description"
     },
     {
       "relation": "contains",
@@ -1655,9 +1943,9 @@
       "source_file": "openapi.json",
       "source_location": "L61",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_post_responses",
-      "target": "gpt_drive_action_openapi_responses_401",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_responses_401"
     },
     {
       "relation": "contains",
@@ -1665,9 +1953,9 @@
       "source_file": "openapi.json",
       "source_location": "L102",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_patch_responses",
-      "target": "gpt_drive_action_openapi_responses_401",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_responses_401"
     },
     {
       "relation": "contains",
@@ -1675,9 +1963,9 @@
       "source_file": "openapi.json",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_paths_drive_create_folder",
-      "target": "gpt_drive_action_openapi_drive_create_folder_post",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_drive_create_folder_post"
     },
     {
       "relation": "contains",
@@ -1685,9 +1973,9 @@
       "source_file": "openapi.json",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_drive_create_folder_post",
-      "target": "gpt_drive_action_openapi_post_operationid",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_post_operationid"
     },
     {
       "relation": "contains",
@@ -1695,9 +1983,9 @@
       "source_file": "openapi.json",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_drive_create_folder_post",
-      "target": "gpt_drive_action_openapi_post_parameters",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_post_parameters"
     },
     {
       "relation": "contains",
@@ -1705,9 +1993,9 @@
       "source_file": "openapi.json",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_drive_create_folder_post",
-      "target": "gpt_drive_action_openapi_post_requestbody",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_post_requestbody"
     },
     {
       "relation": "contains",
@@ -1715,9 +2003,9 @@
       "source_file": "openapi.json",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_drive_create_folder_post",
-      "target": "gpt_drive_action_openapi_post_responses",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_post_responses"
     },
     {
       "relation": "contains",
@@ -1725,9 +2013,9 @@
       "source_file": "openapi.json",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_drive_create_file_post",
-      "target": "gpt_drive_action_openapi_post_operationid",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_post_operationid"
     },
     {
       "relation": "contains",
@@ -1735,9 +2023,9 @@
       "source_file": "openapi.json",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_drive_create_file_post",
-      "target": "gpt_drive_action_openapi_post_parameters",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_post_parameters"
     },
     {
       "relation": "contains",
@@ -1745,9 +2033,9 @@
       "source_file": "openapi.json",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_post_requestbody",
-      "target": "gpt_drive_action_openapi_requestbody_required",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_requestbody_required"
     },
     {
       "relation": "contains",
@@ -1755,9 +2043,9 @@
       "source_file": "openapi.json",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_post_requestbody",
-      "target": "gpt_drive_action_openapi_requestbody_content",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_requestbody_content"
     },
     {
       "relation": "contains",
@@ -1765,9 +2053,9 @@
       "source_file": "openapi.json",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_drive_create_file_post",
-      "target": "gpt_drive_action_openapi_post_requestbody",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_post_requestbody"
     },
     {
       "relation": "contains",
@@ -1775,9 +2063,9 @@
       "source_file": "openapi.json",
       "source_location": "L92",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_patch_requestbody",
-      "target": "gpt_drive_action_openapi_requestbody_required",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_requestbody_required"
     },
     {
       "relation": "contains",
@@ -1785,9 +2073,9 @@
       "source_file": "openapi.json",
       "source_location": "L93",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_requestbody_content",
-      "target": "gpt_drive_action_openapi_content_application_json",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_content_application_json"
     },
     {
       "relation": "contains",
@@ -1795,9 +2083,9 @@
       "source_file": "openapi.json",
       "source_location": "L93",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_patch_requestbody",
-      "target": "gpt_drive_action_openapi_requestbody_content",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_requestbody_content"
     },
     {
       "relation": "contains",
@@ -1805,9 +2093,9 @@
       "source_file": "openapi.json",
       "source_location": "L94",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_content_application_json",
-      "target": "gpt_drive_action_openapi_application_json_schema",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_application_json_schema"
     },
     {
       "relation": "contains",
@@ -1815,9 +2103,9 @@
       "source_file": "openapi.json",
       "source_location": "L61",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_drive_create_file_post",
-      "target": "gpt_drive_action_openapi_post_responses",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_post_responses"
     },
     {
       "relation": "contains",
@@ -1825,9 +2113,9 @@
       "source_file": "openapi.json",
       "source_location": "L46",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_paths_drive_create_file",
-      "target": "gpt_drive_action_openapi_drive_create_file_post",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_drive_create_file_post"
     },
     {
       "relation": "contains",
@@ -1835,9 +2123,9 @@
       "source_file": "openapi.json",
       "source_location": "L65",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_paths_drive_metadata_id",
-      "target": "gpt_drive_action_openapi_drive_metadata_id_get",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_drive_metadata_id_get"
     },
     {
       "relation": "contains",
@@ -1845,9 +2133,9 @@
       "source_file": "openapi.json",
       "source_location": "L75",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_paths_drive_download_id",
-      "target": "gpt_drive_action_openapi_drive_download_id_get",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_drive_download_id_get"
     },
     {
       "relation": "contains",
@@ -1855,9 +2143,9 @@
       "source_file": "openapi.json",
       "source_location": "L85",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_paths_drive_update_id",
-      "target": "gpt_drive_action_openapi_drive_update_id_patch",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_drive_update_id_patch"
     },
     {
       "relation": "contains",
@@ -1865,9 +2153,9 @@
       "source_file": "openapi.json",
       "source_location": "L86",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_drive_update_id_patch",
-      "target": "gpt_drive_action_openapi_patch_operationid",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_patch_operationid"
     },
     {
       "relation": "contains",
@@ -1875,9 +2163,9 @@
       "source_file": "openapi.json",
       "source_location": "L87",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_drive_update_id_patch",
-      "target": "gpt_drive_action_openapi_patch_parameters",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_patch_parameters"
     },
     {
       "relation": "contains",
@@ -1885,9 +2173,9 @@
       "source_file": "openapi.json",
       "source_location": "L91",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_drive_update_id_patch",
-      "target": "gpt_drive_action_openapi_patch_requestbody",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_patch_requestbody"
     },
     {
       "relation": "contains",
@@ -1895,9 +2183,9 @@
       "source_file": "openapi.json",
       "source_location": "L102",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_drive_update_id_patch",
-      "target": "gpt_drive_action_openapi_patch_responses",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_patch_responses"
     },
     {
       "relation": "contains",
@@ -1905,9 +2193,9 @@
       "source_file": "openapi.json",
       "source_location": "L105",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_paths_legal",
-      "target": "gpt_drive_action_openapi_legal_get",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_openapi_legal_get"
     },
     {
       "relation": "contains",
@@ -1955,9 +2243,9 @@
       "source_file": "package.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "gpt_drive_action_package_name",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_package_name"
     },
     {
       "relation": "contains",
@@ -1965,9 +2253,9 @@
       "source_file": "package.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "gpt_drive_action_package_version",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_package_version"
     },
     {
       "relation": "contains",
@@ -1975,9 +2263,9 @@
       "source_file": "package.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "gpt_drive_action_package_main",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_package_main"
     },
     {
       "relation": "contains",
@@ -1985,9 +2273,9 @@
       "source_file": "package.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "gpt_drive_action_package_type",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_package_type"
     },
     {
       "relation": "contains",
@@ -1995,9 +2283,9 @@
       "source_file": "package.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "gpt_drive_action_package_engines",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_package_engines"
     },
     {
       "relation": "contains",
@@ -2005,9 +2293,9 @@
       "source_file": "package.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "gpt_drive_action_package_scripts",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_package_scripts"
     },
     {
       "relation": "contains",
@@ -2015,9 +2303,9 @@
       "source_file": "package.json",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "gpt_drive_action_package_dependencies",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_package_dependencies"
     },
     {
       "relation": "contains",
@@ -2025,9 +2313,9 @@
       "source_file": "package.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_package_engines",
-      "target": "gpt_drive_action_package_engines_node",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_package_engines_node"
     },
     {
       "relation": "contains",
@@ -2035,9 +2323,9 @@
       "source_file": "package.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_package_scripts",
-      "target": "gpt_drive_action_package_scripts_start",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_package_scripts_start"
     },
     {
       "relation": "contains",
@@ -2045,9 +2333,9 @@
       "source_file": "package.json",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_package_dependencies",
-      "target": "gpt_drive_action_package_dependencies_express",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_package_dependencies_express"
     },
     {
       "relation": "contains",
@@ -2055,9 +2343,9 @@
       "source_file": "package.json",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_package_dependencies",
-      "target": "gpt_drive_action_package_dependencies_node_fetch",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_package_dependencies_node_fetch"
     },
     {
       "relation": "contains",
@@ -2065,9 +2353,9 @@
       "source_file": "manifest.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manifest_json",
-      "target": "gpt_drive_action_manifest_schema_version",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_manifest_schema_version"
     },
     {
       "relation": "contains",
@@ -2075,9 +2363,9 @@
       "source_file": "manifest.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manifest_json",
-      "target": "gpt_drive_action_manifest_name_for_human",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_manifest_name_for_human"
     },
     {
       "relation": "contains",
@@ -2085,9 +2373,9 @@
       "source_file": "manifest.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manifest_json",
-      "target": "gpt_drive_action_manifest_name_for_model",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_manifest_name_for_model"
     },
     {
       "relation": "contains",
@@ -2095,9 +2383,9 @@
       "source_file": "manifest.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manifest_json",
-      "target": "gpt_drive_action_manifest_description_for_human",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_manifest_description_for_human"
     },
     {
       "relation": "contains",
@@ -2105,9 +2393,9 @@
       "source_file": "manifest.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manifest_json",
-      "target": "gpt_drive_action_manifest_description_for_model",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_manifest_description_for_model"
     },
     {
       "relation": "contains",
@@ -2115,9 +2403,9 @@
       "source_file": "manifest.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manifest_json",
-      "target": "gpt_drive_action_manifest_auth",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_manifest_auth"
     },
     {
       "relation": "contains",
@@ -2125,9 +2413,9 @@
       "source_file": "manifest.json",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manifest_json",
-      "target": "gpt_drive_action_manifest_api",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_manifest_api"
     },
     {
       "relation": "contains",
@@ -2135,9 +2423,9 @@
       "source_file": "manifest.json",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manifest_json",
-      "target": "gpt_drive_action_manifest_contact_email",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_manifest_contact_email"
     },
     {
       "relation": "contains",
@@ -2145,9 +2433,9 @@
       "source_file": "manifest.json",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manifest_json",
-      "target": "gpt_drive_action_manifest_legal_info_url",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_manifest_legal_info_url"
     },
     {
       "relation": "contains",
@@ -2155,9 +2443,9 @@
       "source_file": "manifest.json",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_manifest_auth",
-      "target": "gpt_drive_action_manifest_auth_type",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_manifest_auth_type"
     },
     {
       "relation": "contains",
@@ -2165,9 +2453,9 @@
       "source_file": "manifest.json",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_manifest_auth",
-      "target": "gpt_drive_action_manifest_auth_client_url",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_manifest_auth_client_url"
     },
     {
       "relation": "contains",
@@ -2175,9 +2463,9 @@
       "source_file": "manifest.json",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_manifest_auth",
-      "target": "gpt_drive_action_manifest_auth_scope",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_manifest_auth_scope"
     },
     {
       "relation": "contains",
@@ -2185,9 +2473,9 @@
       "source_file": "manifest.json",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_manifest_auth",
-      "target": "gpt_drive_action_manifest_auth_authorization_url",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_manifest_auth_authorization_url"
     },
     {
       "relation": "contains",
@@ -2195,9 +2483,9 @@
       "source_file": "manifest.json",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_manifest_auth",
-      "target": "gpt_drive_action_manifest_auth_authorization_content_type",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_manifest_auth_authorization_content_type"
     },
     {
       "relation": "contains",
@@ -2205,9 +2493,9 @@
       "source_file": "manifest.json",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_manifest_auth",
-      "target": "gpt_drive_action_manifest_auth_verification_tokens",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_manifest_auth_verification_tokens"
     },
     {
       "relation": "contains",
@@ -2215,9 +2503,9 @@
       "source_file": "manifest.json",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_manifest_api",
-      "target": "gpt_drive_action_manifest_api_type",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_manifest_api_type"
     },
     {
       "relation": "contains",
@@ -2225,9 +2513,9 @@
       "source_file": "manifest.json",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_manifest_api",
-      "target": "gpt_drive_action_manifest_api_url",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_manifest_api_url"
     },
     {
       "relation": "contains",
@@ -2235,9 +2523,9 @@
       "source_file": "manifest.json",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gpt_drive_action_manifest_api",
-      "target": "gpt_drive_action_manifest_api_is_user_authenticated",
-      "confidence_score": 1.0
+      "target": "gpt_drive_action_manifest_api_is_user_authenticated"
     },
     {
       "relation": "contains",
@@ -2748,8 +3036,298 @@
       "confidence_score": 1.0,
       "source": "docs_historico_historico",
       "target": "docs_historico_yyyy_mm_dd_vx_y_z_titulo_da_sessao"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "claude_skills_md",
+      "target": "claude_skills_skills_aplicaveis_node_js_typescript",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "claude_skills_skills_aplicaveis_node_js_typescript",
+      "target": "claude_skills_basais_sempre",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "claude_skills_skills_aplicaveis_node_js_typescript",
+      "target": "claude_skills_condicionais",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/skills.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "claude_skills_skills_aplicaveis_node_js_typescript",
+      "target": "claude_skills_padroes_obrigatorios_node_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "claude_prompts_md",
+      "target": "claude_prompts_prompts_e_templates_fmunizmcorp_gpt_drive_action",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "claude_prompts_prompts_e_templates_fmunizmcorp_gpt_drive_action",
+      "target": "claude_prompts_template_1_comeco_de_sessao",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "claude_prompts_prompts_e_templates_fmunizmcorp_gpt_drive_action",
+      "target": "claude_prompts_template_2_implementacao_de_feature",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "claude_prompts_prompts_e_templates_fmunizmcorp_gpt_drive_action",
+      "target": "claude_prompts_template_3_bug_fix",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "claude_prompts_prompts_e_templates_fmunizmcorp_gpt_drive_action",
+      "target": "claude_prompts_template_4_auditoria_revisao",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "claude_prompts_prompts_e_templates_fmunizmcorp_gpt_drive_action",
+      "target": "claude_prompts_template_5_deploy_e_validacao",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "claude_prompts_prompts_e_templates_fmunizmcorp_gpt_drive_action",
+      "target": "claude_prompts_template_7_atualizacao_de_skills",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "claude_prompts_template_1_comeco_de_sessao",
+      "target": "claude_prompts_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "claude_prompts_template_2_implementacao_de_feature",
+      "target": "claude_prompts_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "claude_prompts_template_3_bug_fix",
+      "target": "claude_prompts_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "claude_prompts_template_4_auditoria_revisao",
+      "target": "claude_prompts_codeblock_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "claude_prompts_template_5_deploy_e_validacao",
+      "target": "claude_prompts_codeblock_5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/prompts.md",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "claude_prompts_template_7_atualizacao_de_skills",
+      "target": "claude_prompts_codeblock_6",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "claude_orquestrador_md",
+      "target": "claude_orquestrador_orquestrador_fmunizmcorp_gpt_drive_action",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "claude_orquestrador_orquestrador_fmunizmcorp_gpt_drive_action",
+      "target": "claude_orquestrador_persona",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "claude_orquestrador_orquestrador_fmunizmcorp_gpt_drive_action",
+      "target": "claude_orquestrador_missao",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "claude_orquestrador_orquestrador_fmunizmcorp_gpt_drive_action",
+      "target": "claude_orquestrador_dominio_de_atuacao",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "claude_orquestrador_orquestrador_fmunizmcorp_gpt_drive_action",
+      "target": "claude_orquestrador_stack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "claude_orquestrador_orquestrador_fmunizmcorp_gpt_drive_action",
+      "target": "claude_orquestrador_criticidade",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "claude_orquestrador_orquestrador_fmunizmcorp_gpt_drive_action",
+      "target": "claude_orquestrador_squad_sob_sua_coordenacao",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "claude_orquestrador_orquestrador_fmunizmcorp_gpt_drive_action",
+      "target": "claude_orquestrador_triggers_de_skills_quando_aplicar_cada_uma",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "claude_orquestrador_orquestrador_fmunizmcorp_gpt_drive_action",
+      "target": "claude_orquestrador_decisoes_que_voce_orquestrador_toma",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "claude_orquestrador_orquestrador_fmunizmcorp_gpt_drive_action",
+      "target": "claude_orquestrador_decisoes_que_nao_sao_suas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "claude_orquestrador_squad_sob_sua_coordenacao",
+      "target": "claude_orquestrador_sempre_disponiveis_basais",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/orquestrador.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "claude_orquestrador_squad_sob_sua_coordenacao",
+      "target": "claude_orquestrador_especialistas_deste_projeto",
+      "confidence_score": 1.0
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "9ff0070900f7d993c6430b7429cb186f751fb32e"
+  "built_at_commit": "90e3b5d679767eeae28f413085816b63be5ea069"
 }
