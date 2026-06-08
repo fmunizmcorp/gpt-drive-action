@@ -8,6 +8,7 @@
       "file_type": "code",
       "source_file": "index.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "index",
       "community": 18,
       "norm_label": "index.js"
@@ -17,6 +18,7 @@
       "file_type": "code",
       "source_file": "index.js",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "index_express",
       "community": 18,
       "norm_label": "express"
@@ -26,6 +28,7 @@
       "file_type": "code",
       "source_file": "index.js",
       "source_location": "L2",
+      "_origin": "ast",
       "id": "index_fetch",
       "community": 18,
       "norm_label": "fetch()"
@@ -35,6 +38,7 @@
       "file_type": "code",
       "source_file": "index.js",
       "source_location": "L3",
+      "_origin": "ast",
       "id": "index_app",
       "community": 18,
       "norm_label": "app"
@@ -44,6 +48,7 @@
       "file_type": "code",
       "source_file": "manifest.json",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "manifest",
       "community": 15,
       "norm_label": "manifest.json"
@@ -53,6 +58,7 @@
       "file_type": "code",
       "source_file": "manifest.json",
       "source_location": "L2",
+      "_origin": "ast",
       "id": "manifest_schema_version",
       "community": 15,
       "norm_label": "schema_version"
@@ -62,6 +68,7 @@
       "file_type": "code",
       "source_file": "manifest.json",
       "source_location": "L3",
+      "_origin": "ast",
       "id": "manifest_name_for_human",
       "community": 15,
       "norm_label": "name_for_human"
@@ -71,6 +78,7 @@
       "file_type": "code",
       "source_file": "manifest.json",
       "source_location": "L4",
+      "_origin": "ast",
       "id": "manifest_name_for_model",
       "community": 15,
       "norm_label": "name_for_model"
@@ -80,6 +88,7 @@
       "file_type": "code",
       "source_file": "manifest.json",
       "source_location": "L5",
+      "_origin": "ast",
       "id": "manifest_description_for_human",
       "community": 15,
       "norm_label": "description_for_human"
@@ -89,6 +98,7 @@
       "file_type": "code",
       "source_file": "manifest.json",
       "source_location": "L6",
+      "_origin": "ast",
       "id": "manifest_description_for_model",
       "community": 15,
       "norm_label": "description_for_model"
@@ -98,6 +108,7 @@
       "file_type": "code",
       "source_file": "manifest.json",
       "source_location": "L7",
+      "_origin": "ast",
       "id": "manifest_auth",
       "community": 15,
       "norm_label": "auth"
@@ -107,6 +118,7 @@
       "file_type": "code",
       "source_file": "manifest.json",
       "source_location": "L8",
+      "_origin": "ast",
       "id": "manifest_auth_type",
       "community": 15,
       "norm_label": "type"
@@ -116,6 +128,7 @@
       "file_type": "code",
       "source_file": "manifest.json",
       "source_location": "L9",
+      "_origin": "ast",
       "id": "manifest_auth_client_url",
       "community": 15,
       "norm_label": "client_url"
@@ -125,6 +138,7 @@
       "file_type": "code",
       "source_file": "manifest.json",
       "source_location": "L10",
+      "_origin": "ast",
       "id": "manifest_auth_scope",
       "community": 15,
       "norm_label": "scope"
@@ -134,6 +148,7 @@
       "file_type": "code",
       "source_file": "manifest.json",
       "source_location": "L11",
+      "_origin": "ast",
       "id": "manifest_auth_authorization_url",
       "community": 15,
       "norm_label": "authorization_url"
@@ -143,6 +158,7 @@
       "file_type": "code",
       "source_file": "manifest.json",
       "source_location": "L12",
+      "_origin": "ast",
       "id": "manifest_auth_authorization_content_type",
       "community": 15,
       "norm_label": "authorization_content_type"
@@ -152,6 +168,7 @@
       "file_type": "code",
       "source_file": "manifest.json",
       "source_location": "L13",
+      "_origin": "ast",
       "id": "manifest_auth_verification_tokens",
       "community": 15,
       "norm_label": "verification_tokens"
@@ -161,6 +178,7 @@
       "file_type": "code",
       "source_file": "manifest.json",
       "source_location": "L15",
+      "_origin": "ast",
       "id": "manifest_api",
       "community": 15,
       "norm_label": "api"
@@ -170,6 +188,7 @@
       "file_type": "code",
       "source_file": "manifest.json",
       "source_location": "L16",
+      "_origin": "ast",
       "id": "manifest_api_type",
       "community": 15,
       "norm_label": "type"
@@ -179,6 +198,7 @@
       "file_type": "code",
       "source_file": "manifest.json",
       "source_location": "L17",
+      "_origin": "ast",
       "id": "manifest_api_url",
       "community": 15,
       "norm_label": "url"
@@ -188,6 +208,7 @@
       "file_type": "code",
       "source_file": "manifest.json",
       "source_location": "L18",
+      "_origin": "ast",
       "id": "manifest_api_is_user_authenticated",
       "community": 15,
       "norm_label": "is_user_authenticated"
@@ -197,6 +218,7 @@
       "file_type": "code",
       "source_file": "manifest.json",
       "source_location": "L20",
+      "_origin": "ast",
       "id": "manifest_contact_email",
       "community": 15,
       "norm_label": "contact_email"
@@ -206,6 +228,7 @@
       "file_type": "code",
       "source_file": "manifest.json",
       "source_location": "L21",
+      "_origin": "ast",
       "id": "manifest_legal_info_url",
       "community": 15,
       "norm_label": "legal_info_url"
@@ -215,6 +238,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "openapi",
       "community": 11,
       "norm_label": "openapi.json"
@@ -224,6 +248,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L2",
+      "_origin": "ast",
       "id": "openapi_openapi",
       "community": 11,
       "norm_label": "openapi"
@@ -233,6 +258,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L3",
+      "_origin": "ast",
       "id": "openapi_info",
       "community": 11,
       "norm_label": "info"
@@ -242,6 +268,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L3",
+      "_origin": "ast",
       "id": "openapi_info_title",
       "community": 11,
       "norm_label": "title"
@@ -251,6 +278,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L3",
+      "_origin": "ast",
       "id": "openapi_info_version",
       "community": 11,
       "norm_label": "version"
@@ -260,6 +288,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L4",
+      "_origin": "ast",
       "id": "openapi_servers",
       "community": 11,
       "norm_label": "servers"
@@ -269,6 +298,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L5",
+      "_origin": "ast",
       "id": "openapi_paths",
       "community": 11,
       "norm_label": "paths"
@@ -278,6 +308,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L6",
+      "_origin": "ast",
       "id": "openapi_paths_health",
       "community": 11,
       "norm_label": "/health"
@@ -287,6 +318,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L6",
+      "_origin": "ast",
       "id": "openapi_health_get",
       "community": 11,
       "norm_label": "get"
@@ -296,6 +328,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L6",
+      "_origin": "ast",
       "id": "openapi_get_operationid",
       "community": 11,
       "norm_label": "operationid"
@@ -305,6 +338,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L6",
+      "_origin": "ast",
       "id": "openapi_get_responses",
       "community": 11,
       "norm_label": "responses"
@@ -314,6 +348,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L6",
+      "_origin": "ast",
       "id": "openapi_responses_200",
       "community": 14,
       "norm_label": "200"
@@ -323,6 +358,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L6",
+      "_origin": "ast",
       "id": "openapi_200_description",
       "community": 14,
       "norm_label": "description"
@@ -332,6 +368,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L7",
+      "_origin": "ast",
       "id": "openapi_paths_auth_url",
       "community": 11,
       "norm_label": "/auth/url"
@@ -341,6 +378,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L8",
+      "_origin": "ast",
       "id": "openapi_auth_url_get",
       "community": 11,
       "norm_label": "get"
@@ -350,6 +388,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L10",
+      "_origin": "ast",
       "id": "openapi_get_parameters",
       "community": 11,
       "norm_label": "parameters"
@@ -359,6 +398,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L13",
+      "_origin": "ast",
       "id": "openapi_responses_400",
       "community": 11,
       "norm_label": "400"
@@ -368,6 +408,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L13",
+      "_origin": "ast",
       "id": "openapi_400_description",
       "community": 11,
       "norm_label": "description"
@@ -377,6 +418,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L16",
+      "_origin": "ast",
       "id": "openapi_paths_drive_list",
       "community": 11,
       "norm_label": "/drive/list"
@@ -386,6 +428,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L17",
+      "_origin": "ast",
       "id": "openapi_drive_list_get",
       "community": 11,
       "norm_label": "get"
@@ -395,6 +438,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L25",
+      "_origin": "ast",
       "id": "openapi_responses_401",
       "community": 14,
       "norm_label": "401"
@@ -404,6 +448,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L25",
+      "_origin": "ast",
       "id": "openapi_401_description",
       "community": 14,
       "norm_label": "description"
@@ -413,6 +458,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L28",
+      "_origin": "ast",
       "id": "openapi_paths_drive_create_folder",
       "community": 14,
       "norm_label": "/drive/create-folder"
@@ -422,6 +468,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L29",
+      "_origin": "ast",
       "id": "openapi_drive_create_folder_post",
       "community": 14,
       "norm_label": "post"
@@ -431,6 +478,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L30",
+      "_origin": "ast",
       "id": "openapi_post_operationid",
       "community": 14,
       "norm_label": "operationid"
@@ -440,6 +488,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L31",
+      "_origin": "ast",
       "id": "openapi_post_parameters",
       "community": 14,
       "norm_label": "parameters"
@@ -449,6 +498,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L34",
+      "_origin": "ast",
       "id": "openapi_post_requestbody",
       "community": 14,
       "norm_label": "requestbody"
@@ -458,6 +508,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L35",
+      "_origin": "ast",
       "id": "openapi_requestbody_required",
       "community": 14,
       "norm_label": "required"
@@ -467,6 +518,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L36",
+      "_origin": "ast",
       "id": "openapi_requestbody_content",
       "community": 14,
       "norm_label": "content"
@@ -476,6 +528,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L36",
+      "_origin": "ast",
       "id": "openapi_content_application_json",
       "community": 14,
       "norm_label": "application/json"
@@ -485,6 +538,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L37",
+      "_origin": "ast",
       "id": "openapi_application_json_schema",
       "community": 14,
       "norm_label": "schema"
@@ -494,6 +548,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L42",
+      "_origin": "ast",
       "id": "openapi_post_responses",
       "community": 14,
       "norm_label": "responses"
@@ -503,6 +558,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L45",
+      "_origin": "ast",
       "id": "openapi_paths_drive_create_file",
       "community": 14,
       "norm_label": "/drive/create-file"
@@ -512,6 +568,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L46",
+      "_origin": "ast",
       "id": "openapi_drive_create_file_post",
       "community": 14,
       "norm_label": "post"
@@ -521,6 +578,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L64",
+      "_origin": "ast",
       "id": "openapi_paths_drive_metadata_id",
       "community": 11,
       "norm_label": "/drive/metadata/{id}"
@@ -530,6 +588,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L65",
+      "_origin": "ast",
       "id": "openapi_drive_metadata_id_get",
       "community": 11,
       "norm_label": "get"
@@ -539,6 +598,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L74",
+      "_origin": "ast",
       "id": "openapi_paths_drive_download_id",
       "community": 11,
       "norm_label": "/drive/download/{id}"
@@ -548,6 +608,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L75",
+      "_origin": "ast",
       "id": "openapi_drive_download_id_get",
       "community": 11,
       "norm_label": "get"
@@ -557,6 +618,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L84",
+      "_origin": "ast",
       "id": "openapi_paths_drive_update_id",
       "community": 14,
       "norm_label": "/drive/update/{id}"
@@ -566,6 +628,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L85",
+      "_origin": "ast",
       "id": "openapi_drive_update_id_patch",
       "community": 14,
       "norm_label": "patch"
@@ -575,6 +638,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L86",
+      "_origin": "ast",
       "id": "openapi_patch_operationid",
       "community": 14,
       "norm_label": "operationid"
@@ -584,6 +648,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L87",
+      "_origin": "ast",
       "id": "openapi_patch_parameters",
       "community": 14,
       "norm_label": "parameters"
@@ -593,6 +658,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L91",
+      "_origin": "ast",
       "id": "openapi_patch_requestbody",
       "community": 14,
       "norm_label": "requestbody"
@@ -602,6 +668,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L102",
+      "_origin": "ast",
       "id": "openapi_patch_responses",
       "community": 14,
       "norm_label": "responses"
@@ -611,6 +678,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L105",
+      "_origin": "ast",
       "id": "openapi_paths_legal",
       "community": 11,
       "norm_label": "/legal"
@@ -620,6 +688,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L105",
+      "_origin": "ast",
       "id": "openapi_legal_get",
       "community": 11,
       "norm_label": "get"
@@ -629,6 +698,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "package",
       "community": 17,
       "norm_label": "package.json"
@@ -638,6 +708,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L2",
+      "_origin": "ast",
       "id": "package_name",
       "community": 17,
       "norm_label": "name"
@@ -647,6 +718,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L3",
+      "_origin": "ast",
       "id": "package_version",
       "community": 17,
       "norm_label": "version"
@@ -656,6 +728,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L4",
+      "_origin": "ast",
       "id": "package_main",
       "community": 17,
       "norm_label": "main"
@@ -665,6 +738,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L5",
+      "_origin": "ast",
       "id": "package_type",
       "community": 17,
       "norm_label": "type"
@@ -674,6 +748,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L6",
+      "_origin": "ast",
       "id": "package_engines",
       "community": 17,
       "norm_label": "engines"
@@ -683,6 +758,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L6",
+      "_origin": "ast",
       "id": "package_engines_node",
       "community": 17,
       "norm_label": "node"
@@ -692,6 +768,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L7",
+      "_origin": "ast",
       "id": "package_scripts",
       "community": 17,
       "norm_label": "scripts"
@@ -701,6 +778,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L7",
+      "_origin": "ast",
       "id": "package_scripts_start",
       "community": 17,
       "norm_label": "start"
@@ -710,6 +788,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L8",
+      "_origin": "ast",
       "id": "package_dependencies",
       "community": 17,
       "norm_label": "dependencies"
@@ -719,6 +798,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L9",
+      "_origin": "ast",
       "id": "package_dependencies_express",
       "community": 17,
       "norm_label": "express"
@@ -728,6 +808,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L10",
+      "_origin": "ast",
       "id": "package_dependencies_node_fetch",
       "community": 17,
       "norm_label": "node-fetch"
@@ -737,6 +818,7 @@
       "file_type": "document",
       "source_file": ".claude/orquestrador.md",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "claude_orquestrador",
       "community": 12,
       "norm_label": "orquestrador.md"
@@ -746,6 +828,7 @@
       "file_type": "document",
       "source_file": ".claude/orquestrador.md",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "claude_orquestrador_orquestrador_fmunizmcorp_gpt_drive_action",
       "community": 12,
       "norm_label": "orquestrador - fmunizmcorp/gpt-drive-action"
@@ -755,6 +838,7 @@
       "file_type": "document",
       "source_file": ".claude/orquestrador.md",
       "source_location": "L3",
+      "_origin": "ast",
       "id": "claude_orquestrador_persona",
       "community": 12,
       "norm_label": "persona"
@@ -764,6 +848,7 @@
       "file_type": "document",
       "source_file": ".claude/orquestrador.md",
       "source_location": "L7",
+      "_origin": "ast",
       "id": "claude_orquestrador_missao",
       "community": 12,
       "norm_label": "missao"
@@ -773,6 +858,7 @@
       "file_type": "document",
       "source_file": ".claude/orquestrador.md",
       "source_location": "L11",
+      "_origin": "ast",
       "id": "claude_orquestrador_dominio_de_atuacao",
       "community": 12,
       "norm_label": "dominio de atuacao"
@@ -782,6 +868,7 @@
       "file_type": "document",
       "source_file": ".claude/orquestrador.md",
       "source_location": "L15",
+      "_origin": "ast",
       "id": "claude_orquestrador_stack",
       "community": 12,
       "norm_label": "stack"
@@ -791,6 +878,7 @@
       "file_type": "document",
       "source_file": ".claude/orquestrador.md",
       "source_location": "L19",
+      "_origin": "ast",
       "id": "claude_orquestrador_criticidade",
       "community": 12,
       "norm_label": "criticidade"
@@ -800,6 +888,7 @@
       "file_type": "document",
       "source_file": ".claude/orquestrador.md",
       "source_location": "L23",
+      "_origin": "ast",
       "id": "claude_orquestrador_squad_sob_sua_coordenacao",
       "community": 12,
       "norm_label": "squad sob sua coordenacao"
@@ -809,6 +898,7 @@
       "file_type": "document",
       "source_file": ".claude/orquestrador.md",
       "source_location": "L25",
+      "_origin": "ast",
       "id": "claude_orquestrador_sempre_disponiveis_basais",
       "community": 12,
       "norm_label": "sempre disponiveis (basais)"
@@ -818,6 +908,7 @@
       "file_type": "document",
       "source_file": ".claude/orquestrador.md",
       "source_location": "L33",
+      "_origin": "ast",
       "id": "claude_orquestrador_especialistas_deste_projeto",
       "community": 12,
       "norm_label": "especialistas deste projeto"
@@ -827,6 +918,7 @@
       "file_type": "document",
       "source_file": ".claude/orquestrador.md",
       "source_location": "L38",
+      "_origin": "ast",
       "id": "claude_orquestrador_triggers_de_skills_quando_aplicar_cada_uma",
       "community": 12,
       "norm_label": "triggers de skills (quando aplicar cada uma)"
@@ -836,6 +928,7 @@
       "file_type": "document",
       "source_file": ".claude/orquestrador.md",
       "source_location": "L48",
+      "_origin": "ast",
       "id": "claude_orquestrador_decisoes_que_voce_orquestrador_toma",
       "community": 12,
       "norm_label": "decisoes que voce (orquestrador) toma"
@@ -845,6 +938,7 @@
       "file_type": "document",
       "source_file": ".claude/orquestrador.md",
       "source_location": "L57",
+      "_origin": "ast",
       "id": "claude_orquestrador_decisoes_que_nao_sao_suas",
       "community": 12,
       "norm_label": "decisoes que nao sao suas"
@@ -854,6 +948,7 @@
       "file_type": "document",
       "source_file": ".claude/prompts.md",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "claude_prompts",
       "community": 2,
       "norm_label": "prompts.md"
@@ -863,6 +958,7 @@
       "file_type": "document",
       "source_file": ".claude/prompts.md",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "claude_prompts_prompts_e_templates_fmunizmcorp_gpt_drive_action",
       "community": 2,
       "norm_label": "prompts e templates - fmunizmcorp/gpt-drive-action"
@@ -872,6 +968,7 @@
       "file_type": "document",
       "source_file": ".claude/prompts.md",
       "source_location": "L6",
+      "_origin": "ast",
       "id": "claude_prompts_template_1_comeco_de_sessao",
       "community": 2,
       "norm_label": "template 1: comeco de sessao"
@@ -881,6 +978,7 @@
       "file_type": "document",
       "source_file": ".claude/prompts.md",
       "source_location": "L17",
+      "_origin": "ast",
       "id": "claude_prompts_template_2_implementacao_de_feature",
       "community": 2,
       "norm_label": "template 2: implementacao de feature"
@@ -890,6 +988,7 @@
       "file_type": "document",
       "source_file": ".claude/prompts.md",
       "source_location": "L34",
+      "_origin": "ast",
       "id": "claude_prompts_template_3_bug_fix",
       "community": 2,
       "norm_label": "template 3: bug fix"
@@ -899,6 +998,7 @@
       "file_type": "document",
       "source_file": ".claude/prompts.md",
       "source_location": "L48",
+      "_origin": "ast",
       "id": "claude_prompts_template_4_auditoria_revisao",
       "community": 2,
       "norm_label": "template 4: auditoria/revisao"
@@ -908,6 +1008,7 @@
       "file_type": "document",
       "source_file": ".claude/prompts.md",
       "source_location": "L63",
+      "_origin": "ast",
       "id": "claude_prompts_template_5_deploy_e_validacao",
       "community": 2,
       "norm_label": "template 5: deploy e validacao"
@@ -917,6 +1018,7 @@
       "file_type": "document",
       "source_file": ".claude/prompts.md",
       "source_location": "L80",
+      "_origin": "ast",
       "id": "claude_prompts_template_7_atualizacao_de_skills",
       "community": 2,
       "norm_label": "template 7: atualizacao de skills"
@@ -926,6 +1028,7 @@
       "file_type": "document",
       "source_file": ".claude/skills.md",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "claude_skills",
       "community": 13,
       "norm_label": "skills.md"
@@ -935,6 +1038,7 @@
       "file_type": "document",
       "source_file": ".claude/skills.md",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "claude_skills_skills_aplicaveis_node_js_typescript",
       "community": 13,
       "norm_label": "skills aplicaveis (node.js / typescript)"
@@ -944,6 +1048,7 @@
       "file_type": "document",
       "source_file": ".claude/skills.md",
       "source_location": "L3",
+      "_origin": "ast",
       "id": "claude_skills_basais_sempre",
       "community": 13,
       "norm_label": "basais (sempre)"
@@ -953,6 +1058,7 @@
       "file_type": "document",
       "source_file": ".claude/skills.md",
       "source_location": "L10",
+      "_origin": "ast",
       "id": "claude_skills_condicionais",
       "community": 13,
       "norm_label": "condicionais"
@@ -962,6 +1068,7 @@
       "file_type": "document",
       "source_file": ".claude/skills.md",
       "source_location": "L14",
+      "_origin": "ast",
       "id": "claude_skills_padroes_obrigatorios_node_ts",
       "community": 13,
       "norm_label": "padroes obrigatorios node/ts"
@@ -971,6 +1078,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "claude",
       "community": 16,
       "norm_label": "claude.md"
@@ -980,6 +1088,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L8",
+      "_origin": "ast",
       "id": "claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
       "community": 16,
       "norm_label": "atencao claude - leia e obedeca este bloco antes de qualquer outra coisa"
@@ -989,6 +1098,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L10",
+      "_origin": "ast",
       "id": "claude_regra_1_o_usuario_e_leigo_nunca_pergunte_sobre_persona_skill_ou_configuracao",
       "community": 16,
       "norm_label": "regra -1 - o usuario e leigo. nunca pergunte sobre persona, skill ou configuracao."
@@ -998,6 +1108,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L22",
+      "_origin": "ast",
       "id": "claude_regra_0_voce_e_o_lider_orquestrador_deste_repo_ativo_agora",
       "community": 16,
       "norm_label": "regra 0 - voce e o lider + orquestrador deste repo. ativo. agora."
@@ -1007,6 +1118,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L41",
+      "_origin": "ast",
       "id": "claude_regra_1_skills_basais_sempre_on_nao_pergunte_nao_escolha",
       "community": 16,
       "norm_label": "regra 1 - skills basais - sempre on. nao pergunte. nao escolha."
@@ -1016,6 +1128,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L51",
+      "_origin": "ast",
       "id": "claude_regra_2_skills_condicionais_para_repo_de_desenvolvimento",
       "community": 16,
       "norm_label": "regra 2 - skills condicionais para repo de desenvolvimento"
@@ -1025,6 +1138,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L69",
+      "_origin": "ast",
       "id": "claude_regra_2_5_geracao_de_arquivos_excel_pdf_docx_pptx_skills_xlsx_pdf_docx_pptx",
       "community": 16,
       "norm_label": "regra 2.5 - geracao de arquivos (excel, pdf, docx, pptx) - skills xlsx/pdf/docx/pptx"
@@ -1034,6 +1148,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L81",
+      "_origin": "ast",
       "id": "claude_padroes_brasil_obrigatorios_em_cada_arquivo_gerado",
       "community": 16,
       "norm_label": "padroes brasil obrigatorios em cada arquivo gerado"
@@ -1043,6 +1158,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L88",
+      "_origin": "ast",
       "id": "claude_fluxo_padrao_quando_o_usuario_pede_arquivo",
       "community": 16,
       "norm_label": "fluxo padrao quando o usuario pede arquivo"
@@ -1052,6 +1168,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L98",
+      "_origin": "ast",
       "id": "claude_regra_3_protocolo_de_leitura_obrigatorio_toda_mensagem_nova",
       "community": 16,
       "norm_label": "regra 3 - protocolo de leitura obrigatorio (toda mensagem nova)"
@@ -1061,6 +1178,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L111",
+      "_origin": "ast",
       "id": "claude_regra_4_protocolo_de_fechamento_obrigatorio_toda_sessao_com_mudancas",
       "community": 16,
       "norm_label": "regra 4 - protocolo de fechamento obrigatorio (toda sessao com mudancas)"
@@ -1070,6 +1188,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L120",
+      "_origin": "ast",
       "id": "claude_regra_5_decisao_do_usuario_sobre_credenciais_ja_documentada",
       "community": 16,
       "norm_label": "regra 5 - decisao do usuario sobre credenciais (ja documentada)"
@@ -1079,6 +1198,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L124",
+      "_origin": "ast",
       "id": "claude_regra_6_padroes_brasil_obrigatorios",
       "community": 16,
       "norm_label": "regra 6 - padroes brasil obrigatorios"
@@ -1088,6 +1208,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L158",
+      "_origin": "ast",
       "id": "claude_claude_md_fmunizmcorp_gpt_drive_action",
       "community": 4,
       "norm_label": "claude.md - fmunizmcorp/gpt-drive-action"
@@ -1097,6 +1218,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L163",
+      "_origin": "ast",
       "id": "claude_zero_protocolo_de_ativacao_executar_sempre_no_inicio_da_conversa",
       "community": 4,
       "norm_label": "zero. protocolo de ativacao (executar sempre no inicio da conversa)"
@@ -1106,6 +1228,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L178",
+      "_origin": "ast",
       "id": "claude_zero_1_excelencia_total_regras_inegociaveis",
       "community": 4,
       "norm_label": "zero.1 excelencia total (regras inegociaveis)"
@@ -1115,6 +1238,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L192",
+      "_origin": "ast",
       "id": "claude_1_identidade_do_projeto",
       "community": 4,
       "norm_label": "1. identidade do projeto"
@@ -1124,6 +1248,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L200",
+      "_origin": "ast",
       "id": "claude_2_seu_papel_orquestrador",
       "community": 4,
       "norm_label": "2. seu papel - orquestrador"
@@ -1133,6 +1258,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L218",
+      "_origin": "ast",
       "id": "claude_3_squad_de_ias_skills_aplicaveis",
       "community": 4,
       "norm_label": "3. squad de ias (skills aplicaveis)"
@@ -1142,6 +1268,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L220",
+      "_origin": "ast",
       "id": "claude_skills_basais_sempre_validas_em_qualquer_tarefa",
       "community": 4,
       "norm_label": "skills basais (sempre validas em qualquer tarefa)"
@@ -1151,6 +1278,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L228",
+      "_origin": "ast",
       "id": "claude_skills_especificas_deste_projeto",
       "community": 4,
       "norm_label": "skills especificas deste projeto"
@@ -1160,6 +1288,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L233",
+      "_origin": "ast",
       "id": "claude_quando_usar_cada_skill",
       "community": 4,
       "norm_label": "quando usar cada skill"
@@ -1169,6 +1298,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L237",
+      "_origin": "ast",
       "id": "claude_4_metodologia_de_trabalho",
       "community": 4,
       "norm_label": "4. metodologia de trabalho"
@@ -1178,6 +1308,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L239",
+      "_origin": "ast",
       "id": "claude_fluxo_padrao_para_qualquer_tarefa",
       "community": 4,
       "norm_label": "fluxo padrao para qualquer tarefa"
@@ -1187,6 +1318,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L275",
+      "_origin": "ast",
       "id": "claude_padroes_obrigatorios",
       "community": 4,
       "norm_label": "padroes obrigatorios"
@@ -1196,6 +1328,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L285",
+      "_origin": "ast",
       "id": "claude_5_conhecimento_especifico_do_projeto",
       "community": 4,
       "norm_label": "5. conhecimento especifico do projeto"
@@ -1205,6 +1338,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L289",
+      "_origin": "ast",
       "id": "claude_estruturas_centrais_god_nodes_pelo_graphify",
       "community": 4,
       "norm_label": "estruturas centrais (god nodes pelo graphify)"
@@ -1214,6 +1348,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L293",
+      "_origin": "ast",
       "id": "claude_6_stack_tecnologico_de_package_json",
       "community": 4,
       "norm_label": "6. stack tecnologico (de `package.json`)"
@@ -1223,6 +1358,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L311",
+      "_origin": "ast",
       "id": "claude_7_estrutura_do_repo",
       "community": 4,
       "norm_label": "7. estrutura do repo"
@@ -1232,6 +1368,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L313",
+      "_origin": "ast",
       "id": "claude_diretorios_principais",
       "community": 4,
       "norm_label": "diretorios principais"
@@ -1241,6 +1378,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L321",
+      "_origin": "ast",
       "id": "claude_arquivos_da_raiz_amostra",
       "community": 4,
       "norm_label": "arquivos da raiz (amostra)"
@@ -1250,6 +1388,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L333",
+      "_origin": "ast",
       "id": "claude_9_aprendizado_e_atualizacao_continua",
       "community": 4,
       "norm_label": "9. aprendizado e atualizacao continua"
@@ -1259,6 +1398,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L335",
+      "_origin": "ast",
       "id": "claude_regra_de_ouro_sempre_atualize_o_conhecimento_do_projeto",
       "community": 4,
       "norm_label": "regra de ouro: sempre atualize o conhecimento do projeto"
@@ -1268,6 +1408,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L361",
+      "_origin": "ast",
       "id": "claude_triggers_para_regenerar_grafo",
       "community": 4,
       "norm_label": "triggers para regenerar grafo"
@@ -1277,6 +1418,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L371",
+      "_origin": "ast",
       "id": "claude_10_checklist_de_entrega_obrigatorio",
       "community": 4,
       "norm_label": "10. checklist de entrega obrigatorio"
@@ -1286,6 +1428,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L375",
+      "_origin": "ast",
       "id": "claude_codigo",
       "community": 4,
       "norm_label": "codigo"
@@ -1295,6 +1438,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L383",
+      "_origin": "ast",
       "id": "claude_testes",
       "community": 4,
       "norm_label": "testes"
@@ -1304,6 +1448,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L391",
+      "_origin": "ast",
       "id": "claude_documentacao",
       "community": 4,
       "norm_label": "documentacao"
@@ -1313,6 +1458,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L399",
+      "_origin": "ast",
       "id": "claude_deploy",
       "community": 4,
       "norm_label": "deploy"
@@ -1322,6 +1468,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L407",
+      "_origin": "ast",
       "id": "claude_sinalizar_conclusao",
       "community": 4,
       "norm_label": "sinalizar conclusao"
@@ -1331,6 +1478,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L413",
+      "_origin": "ast",
       "id": "claude_11_referencias_rapidas",
       "community": 4,
       "norm_label": "11. referencias rapidas"
@@ -1340,6 +1488,7 @@
       "file_type": "document",
       "source_file": "docs/APRENDIZADOS.md",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "docs_aprendizados",
       "community": 5,
       "norm_label": "aprendizados.md"
@@ -1349,6 +1498,7 @@
       "file_type": "document",
       "source_file": "docs/APRENDIZADOS.md",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "docs_aprendizados_aprendizados_fmunizmcorp_gpt_drive_action",
       "community": 5,
       "norm_label": "aprendizados - fmunizmcorp/gpt-drive-action"
@@ -1358,6 +1508,7 @@
       "file_type": "document",
       "source_file": "docs/APRENDIZADOS.md",
       "source_location": "L7",
+      "_origin": "ast",
       "id": "docs_aprendizados_como_usar",
       "community": 5,
       "norm_label": "como usar"
@@ -1367,6 +1518,7 @@
       "file_type": "document",
       "source_file": "docs/APRENDIZADOS.md",
       "source_location": "L13",
+      "_origin": "ast",
       "id": "docs_aprendizados_aprendizados",
       "community": 5,
       "norm_label": "aprendizados"
@@ -1376,6 +1528,7 @@
       "file_type": "document",
       "source_file": "docs/APRENDIZADOS.md",
       "source_location": "L17",
+      "_origin": "ast",
       "id": "docs_aprendizados_yyyy_mm_dd_titulo_do_aprendizado_categoria",
       "community": 5,
       "norm_label": "yyyy-mm-dd - titulo do aprendizado [#categoria]"
@@ -1385,6 +1538,7 @@
       "file_type": "document",
       "source_file": "docs/HISTORICO.md",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "docs_historico",
       "community": 6,
       "norm_label": "historico.md"
@@ -1394,6 +1548,7 @@
       "file_type": "document",
       "source_file": "docs/HISTORICO.md",
       "source_location": "L1",
+      "_origin": "ast",
       "id": "docs_historico_historico_de_sessoes_fmunizmcorp_gpt_drive_action",
       "community": 6,
       "norm_label": "historico de sessoes - fmunizmcorp/gpt-drive-action"
@@ -1403,6 +1558,7 @@
       "file_type": "document",
       "source_file": "docs/HISTORICO.md",
       "source_location": "L5",
+      "_origin": "ast",
       "id": "docs_historico_como_usar",
       "community": 6,
       "norm_label": "como usar"
@@ -1412,6 +1568,7 @@
       "file_type": "document",
       "source_file": "docs/HISTORICO.md",
       "source_location": "L10",
+      "_origin": "ast",
       "id": "docs_historico_historico",
       "community": 6,
       "norm_label": "historico"
@@ -1421,6 +1578,7 @@
       "file_type": "document",
       "source_file": "docs/HISTORICO.md",
       "source_location": "L14",
+      "_origin": "ast",
       "id": "docs_historico_yyyy_mm_dd_vx_y_z_titulo_da_sessao",
       "community": 6,
       "norm_label": "yyyy-mm-dd - vx.y.z - titulo da sessao"
@@ -2666,9 +2824,9 @@
       "source_file": "index.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "index",
-      "target": "index_app",
-      "confidence_score": 1.0
+      "target": "index_app"
     },
     {
       "relation": "contains",
@@ -2676,9 +2834,9 @@
       "source_file": "index.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "index",
-      "target": "index_express",
-      "confidence_score": 1.0
+      "target": "index_express"
     },
     {
       "relation": "contains",
@@ -2686,9 +2844,9 @@
       "source_file": "index.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "index",
-      "target": "index_fetch",
-      "confidence_score": 1.0
+      "target": "index_fetch"
     },
     {
       "relation": "contains",
@@ -2696,9 +2854,9 @@
       "source_file": "manifest.json",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manifest",
-      "target": "manifest_api",
-      "confidence_score": 1.0
+      "target": "manifest_api"
     },
     {
       "relation": "contains",
@@ -2706,9 +2864,9 @@
       "source_file": "manifest.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manifest",
-      "target": "manifest_auth",
-      "confidence_score": 1.0
+      "target": "manifest_auth"
     },
     {
       "relation": "contains",
@@ -2716,9 +2874,9 @@
       "source_file": "manifest.json",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manifest",
-      "target": "manifest_contact_email",
-      "confidence_score": 1.0
+      "target": "manifest_contact_email"
     },
     {
       "relation": "contains",
@@ -2726,9 +2884,9 @@
       "source_file": "manifest.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manifest",
-      "target": "manifest_description_for_human",
-      "confidence_score": 1.0
+      "target": "manifest_description_for_human"
     },
     {
       "relation": "contains",
@@ -2736,9 +2894,9 @@
       "source_file": "manifest.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manifest",
-      "target": "manifest_description_for_model",
-      "confidence_score": 1.0
+      "target": "manifest_description_for_model"
     },
     {
       "relation": "contains",
@@ -2746,9 +2904,9 @@
       "source_file": "manifest.json",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manifest",
-      "target": "manifest_legal_info_url",
-      "confidence_score": 1.0
+      "target": "manifest_legal_info_url"
     },
     {
       "relation": "contains",
@@ -2756,9 +2914,9 @@
       "source_file": "manifest.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manifest",
-      "target": "manifest_name_for_human",
-      "confidence_score": 1.0
+      "target": "manifest_name_for_human"
     },
     {
       "relation": "contains",
@@ -2766,9 +2924,9 @@
       "source_file": "manifest.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manifest",
-      "target": "manifest_name_for_model",
-      "confidence_score": 1.0
+      "target": "manifest_name_for_model"
     },
     {
       "relation": "contains",
@@ -2776,9 +2934,9 @@
       "source_file": "manifest.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manifest",
-      "target": "manifest_schema_version",
-      "confidence_score": 1.0
+      "target": "manifest_schema_version"
     },
     {
       "relation": "contains",
@@ -2786,9 +2944,9 @@
       "source_file": "manifest.json",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manifest_auth",
-      "target": "manifest_auth_authorization_content_type",
-      "confidence_score": 1.0
+      "target": "manifest_auth_authorization_content_type"
     },
     {
       "relation": "contains",
@@ -2796,9 +2954,9 @@
       "source_file": "manifest.json",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manifest_auth",
-      "target": "manifest_auth_authorization_url",
-      "confidence_score": 1.0
+      "target": "manifest_auth_authorization_url"
     },
     {
       "relation": "contains",
@@ -2806,9 +2964,9 @@
       "source_file": "manifest.json",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manifest_auth",
-      "target": "manifest_auth_client_url",
-      "confidence_score": 1.0
+      "target": "manifest_auth_client_url"
     },
     {
       "relation": "contains",
@@ -2816,9 +2974,9 @@
       "source_file": "manifest.json",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manifest_auth",
-      "target": "manifest_auth_scope",
-      "confidence_score": 1.0
+      "target": "manifest_auth_scope"
     },
     {
       "relation": "contains",
@@ -2826,9 +2984,9 @@
       "source_file": "manifest.json",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manifest_auth",
-      "target": "manifest_auth_type",
-      "confidence_score": 1.0
+      "target": "manifest_auth_type"
     },
     {
       "relation": "contains",
@@ -2836,9 +2994,9 @@
       "source_file": "manifest.json",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manifest_auth",
-      "target": "manifest_auth_verification_tokens",
-      "confidence_score": 1.0
+      "target": "manifest_auth_verification_tokens"
     },
     {
       "relation": "contains",
@@ -2846,9 +3004,9 @@
       "source_file": "manifest.json",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manifest_api",
-      "target": "manifest_api_is_user_authenticated",
-      "confidence_score": 1.0
+      "target": "manifest_api_is_user_authenticated"
     },
     {
       "relation": "contains",
@@ -2856,9 +3014,9 @@
       "source_file": "manifest.json",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manifest_api",
-      "target": "manifest_api_type",
-      "confidence_score": 1.0
+      "target": "manifest_api_type"
     },
     {
       "relation": "contains",
@@ -2866,9 +3024,9 @@
       "source_file": "manifest.json",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manifest_api",
-      "target": "manifest_api_url",
-      "confidence_score": 1.0
+      "target": "manifest_api_url"
     },
     {
       "relation": "contains",
@@ -2876,9 +3034,9 @@
       "source_file": "openapi.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi",
-      "target": "openapi_info",
-      "confidence_score": 1.0
+      "target": "openapi_info"
     },
     {
       "relation": "contains",
@@ -2886,9 +3044,9 @@
       "source_file": "openapi.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi",
-      "target": "openapi_openapi",
-      "confidence_score": 1.0
+      "target": "openapi_openapi"
     },
     {
       "relation": "contains",
@@ -2896,9 +3054,9 @@
       "source_file": "openapi.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi",
-      "target": "openapi_paths",
-      "confidence_score": 1.0
+      "target": "openapi_paths"
     },
     {
       "relation": "contains",
@@ -2906,9 +3064,9 @@
       "source_file": "openapi.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi",
-      "target": "openapi_servers",
-      "confidence_score": 1.0
+      "target": "openapi_servers"
     },
     {
       "relation": "contains",
@@ -2916,9 +3074,9 @@
       "source_file": "openapi.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_info",
-      "target": "openapi_info_title",
-      "confidence_score": 1.0
+      "target": "openapi_info_title"
     },
     {
       "relation": "contains",
@@ -2926,9 +3084,9 @@
       "source_file": "openapi.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_info",
-      "target": "openapi_info_version",
-      "confidence_score": 1.0
+      "target": "openapi_info_version"
     },
     {
       "relation": "contains",
@@ -2936,9 +3094,9 @@
       "source_file": "openapi.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_paths",
-      "target": "openapi_paths_auth_url",
-      "confidence_score": 1.0
+      "target": "openapi_paths_auth_url"
     },
     {
       "relation": "contains",
@@ -2946,9 +3104,9 @@
       "source_file": "openapi.json",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_paths",
-      "target": "openapi_paths_drive_create_file",
-      "confidence_score": 1.0
+      "target": "openapi_paths_drive_create_file"
     },
     {
       "relation": "contains",
@@ -2956,9 +3114,9 @@
       "source_file": "openapi.json",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_paths",
-      "target": "openapi_paths_drive_create_folder",
-      "confidence_score": 1.0
+      "target": "openapi_paths_drive_create_folder"
     },
     {
       "relation": "contains",
@@ -2966,9 +3124,9 @@
       "source_file": "openapi.json",
       "source_location": "L74",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_paths",
-      "target": "openapi_paths_drive_download_id",
-      "confidence_score": 1.0
+      "target": "openapi_paths_drive_download_id"
     },
     {
       "relation": "contains",
@@ -2976,9 +3134,9 @@
       "source_file": "openapi.json",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_paths",
-      "target": "openapi_paths_drive_list",
-      "confidence_score": 1.0
+      "target": "openapi_paths_drive_list"
     },
     {
       "relation": "contains",
@@ -2986,9 +3144,9 @@
       "source_file": "openapi.json",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_paths",
-      "target": "openapi_paths_drive_metadata_id",
-      "confidence_score": 1.0
+      "target": "openapi_paths_drive_metadata_id"
     },
     {
       "relation": "contains",
@@ -2996,9 +3154,9 @@
       "source_file": "openapi.json",
       "source_location": "L84",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_paths",
-      "target": "openapi_paths_drive_update_id",
-      "confidence_score": 1.0
+      "target": "openapi_paths_drive_update_id"
     },
     {
       "relation": "contains",
@@ -3006,9 +3164,9 @@
       "source_file": "openapi.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_paths",
-      "target": "openapi_paths_health",
-      "confidence_score": 1.0
+      "target": "openapi_paths_health"
     },
     {
       "relation": "contains",
@@ -3016,9 +3174,9 @@
       "source_file": "openapi.json",
       "source_location": "L105",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_paths",
-      "target": "openapi_paths_legal",
-      "confidence_score": 1.0
+      "target": "openapi_paths_legal"
     },
     {
       "relation": "contains",
@@ -3026,9 +3184,9 @@
       "source_file": "openapi.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_paths_health",
-      "target": "openapi_health_get",
-      "confidence_score": 1.0
+      "target": "openapi_health_get"
     },
     {
       "relation": "contains",
@@ -3036,9 +3194,9 @@
       "source_file": "openapi.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_health_get",
-      "target": "openapi_get_operationid",
-      "confidence_score": 1.0
+      "target": "openapi_get_operationid"
     },
     {
       "relation": "contains",
@@ -3046,9 +3204,9 @@
       "source_file": "openapi.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_health_get",
-      "target": "openapi_get_responses",
-      "confidence_score": 1.0
+      "target": "openapi_get_responses"
     },
     {
       "relation": "contains",
@@ -3056,9 +3214,9 @@
       "source_file": "openapi.json",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_auth_url_get",
-      "target": "openapi_get_operationid",
-      "confidence_score": 1.0
+      "target": "openapi_get_operationid"
     },
     {
       "relation": "contains",
@@ -3066,9 +3224,9 @@
       "source_file": "openapi.json",
       "source_location": "L76",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_drive_download_id_get",
-      "target": "openapi_get_operationid",
-      "confidence_score": 1.0
+      "target": "openapi_get_operationid"
     },
     {
       "relation": "contains",
@@ -3076,9 +3234,9 @@
       "source_file": "openapi.json",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_drive_list_get",
-      "target": "openapi_get_operationid",
-      "confidence_score": 1.0
+      "target": "openapi_get_operationid"
     },
     {
       "relation": "contains",
@@ -3086,9 +3244,9 @@
       "source_file": "openapi.json",
       "source_location": "L66",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_drive_metadata_id_get",
-      "target": "openapi_get_operationid",
-      "confidence_score": 1.0
+      "target": "openapi_get_operationid"
     },
     {
       "relation": "contains",
@@ -3096,9 +3254,9 @@
       "source_file": "openapi.json",
       "source_location": "L105",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_legal_get",
-      "target": "openapi_get_operationid",
-      "confidence_score": 1.0
+      "target": "openapi_get_operationid"
     },
     {
       "relation": "contains",
@@ -3106,9 +3264,9 @@
       "source_file": "openapi.json",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_auth_url_get",
-      "target": "openapi_get_responses",
-      "confidence_score": 1.0
+      "target": "openapi_get_responses"
     },
     {
       "relation": "contains",
@@ -3116,9 +3274,9 @@
       "source_file": "openapi.json",
       "source_location": "L81",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_drive_download_id_get",
-      "target": "openapi_get_responses",
-      "confidence_score": 1.0
+      "target": "openapi_get_responses"
     },
     {
       "relation": "contains",
@@ -3126,9 +3284,9 @@
       "source_file": "openapi.json",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_drive_list_get",
-      "target": "openapi_get_responses",
-      "confidence_score": 1.0
+      "target": "openapi_get_responses"
     },
     {
       "relation": "contains",
@@ -3136,9 +3294,9 @@
       "source_file": "openapi.json",
       "source_location": "L71",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_drive_metadata_id_get",
-      "target": "openapi_get_responses",
-      "confidence_score": 1.0
+      "target": "openapi_get_responses"
     },
     {
       "relation": "contains",
@@ -3146,9 +3304,9 @@
       "source_file": "openapi.json",
       "source_location": "L105",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_get_responses",
-      "target": "openapi_responses_200",
-      "confidence_score": 1.0
+      "target": "openapi_responses_200"
     },
     {
       "relation": "contains",
@@ -3156,9 +3314,9 @@
       "source_file": "openapi.json",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_get_responses",
-      "target": "openapi_responses_400",
-      "confidence_score": 1.0
+      "target": "openapi_responses_400"
     },
     {
       "relation": "contains",
@@ -3166,9 +3324,9 @@
       "source_file": "openapi.json",
       "source_location": "L81",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_get_responses",
-      "target": "openapi_responses_401",
-      "confidence_score": 1.0
+      "target": "openapi_responses_401"
     },
     {
       "relation": "contains",
@@ -3176,9 +3334,9 @@
       "source_file": "openapi.json",
       "source_location": "L105",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_legal_get",
-      "target": "openapi_get_responses",
-      "confidence_score": 1.0
+      "target": "openapi_get_responses"
     },
     {
       "relation": "contains",
@@ -3186,9 +3344,9 @@
       "source_file": "openapi.json",
       "source_location": "L102",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_patch_responses",
-      "target": "openapi_responses_200",
-      "confidence_score": 1.0
+      "target": "openapi_responses_200"
     },
     {
       "relation": "contains",
@@ -3196,9 +3354,9 @@
       "source_file": "openapi.json",
       "source_location": "L61",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_post_responses",
-      "target": "openapi_responses_200",
-      "confidence_score": 1.0
+      "target": "openapi_responses_200"
     },
     {
       "relation": "contains",
@@ -3206,9 +3364,9 @@
       "source_file": "openapi.json",
       "source_location": "L105",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_responses_200",
-      "target": "openapi_200_description",
-      "confidence_score": 1.0
+      "target": "openapi_200_description"
     },
     {
       "relation": "contains",
@@ -3216,9 +3374,9 @@
       "source_file": "openapi.json",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_paths_auth_url",
-      "target": "openapi_auth_url_get",
-      "confidence_score": 1.0
+      "target": "openapi_auth_url_get"
     },
     {
       "relation": "contains",
@@ -3226,9 +3384,9 @@
       "source_file": "openapi.json",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_auth_url_get",
-      "target": "openapi_get_parameters",
-      "confidence_score": 1.0
+      "target": "openapi_get_parameters"
     },
     {
       "relation": "contains",
@@ -3236,9 +3394,9 @@
       "source_file": "openapi.json",
       "source_location": "L77",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_drive_download_id_get",
-      "target": "openapi_get_parameters",
-      "confidence_score": 1.0
+      "target": "openapi_get_parameters"
     },
     {
       "relation": "contains",
@@ -3246,9 +3404,9 @@
       "source_file": "openapi.json",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_drive_list_get",
-      "target": "openapi_get_parameters",
-      "confidence_score": 1.0
+      "target": "openapi_get_parameters"
     },
     {
       "relation": "contains",
@@ -3256,9 +3414,9 @@
       "source_file": "openapi.json",
       "source_location": "L67",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_drive_metadata_id_get",
-      "target": "openapi_get_parameters",
-      "confidence_score": 1.0
+      "target": "openapi_get_parameters"
     },
     {
       "relation": "contains",
@@ -3266,9 +3424,9 @@
       "source_file": "openapi.json",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_responses_400",
-      "target": "openapi_400_description",
-      "confidence_score": 1.0
+      "target": "openapi_400_description"
     },
     {
       "relation": "contains",
@@ -3276,9 +3434,9 @@
       "source_file": "openapi.json",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_paths_drive_list",
-      "target": "openapi_drive_list_get",
-      "confidence_score": 1.0
+      "target": "openapi_drive_list_get"
     },
     {
       "relation": "contains",
@@ -3286,9 +3444,9 @@
       "source_file": "openapi.json",
       "source_location": "L102",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_patch_responses",
-      "target": "openapi_responses_401",
-      "confidence_score": 1.0
+      "target": "openapi_responses_401"
     },
     {
       "relation": "contains",
@@ -3296,9 +3454,9 @@
       "source_file": "openapi.json",
       "source_location": "L61",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_post_responses",
-      "target": "openapi_responses_401",
-      "confidence_score": 1.0
+      "target": "openapi_responses_401"
     },
     {
       "relation": "contains",
@@ -3306,9 +3464,9 @@
       "source_file": "openapi.json",
       "source_location": "L102",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_responses_401",
-      "target": "openapi_401_description",
-      "confidence_score": 1.0
+      "target": "openapi_401_description"
     },
     {
       "relation": "contains",
@@ -3316,9 +3474,9 @@
       "source_file": "openapi.json",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_paths_drive_create_folder",
-      "target": "openapi_drive_create_folder_post",
-      "confidence_score": 1.0
+      "target": "openapi_drive_create_folder_post"
     },
     {
       "relation": "contains",
@@ -3326,9 +3484,9 @@
       "source_file": "openapi.json",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_drive_create_folder_post",
-      "target": "openapi_post_operationid",
-      "confidence_score": 1.0
+      "target": "openapi_post_operationid"
     },
     {
       "relation": "contains",
@@ -3336,9 +3494,9 @@
       "source_file": "openapi.json",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_drive_create_folder_post",
-      "target": "openapi_post_parameters",
-      "confidence_score": 1.0
+      "target": "openapi_post_parameters"
     },
     {
       "relation": "contains",
@@ -3346,9 +3504,9 @@
       "source_file": "openapi.json",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_drive_create_folder_post",
-      "target": "openapi_post_requestbody",
-      "confidence_score": 1.0
+      "target": "openapi_post_requestbody"
     },
     {
       "relation": "contains",
@@ -3356,9 +3514,9 @@
       "source_file": "openapi.json",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_drive_create_folder_post",
-      "target": "openapi_post_responses",
-      "confidence_score": 1.0
+      "target": "openapi_post_responses"
     },
     {
       "relation": "contains",
@@ -3366,9 +3524,9 @@
       "source_file": "openapi.json",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_drive_create_file_post",
-      "target": "openapi_post_operationid",
-      "confidence_score": 1.0
+      "target": "openapi_post_operationid"
     },
     {
       "relation": "contains",
@@ -3376,9 +3534,9 @@
       "source_file": "openapi.json",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_drive_create_file_post",
-      "target": "openapi_post_parameters",
-      "confidence_score": 1.0
+      "target": "openapi_post_parameters"
     },
     {
       "relation": "contains",
@@ -3386,9 +3544,9 @@
       "source_file": "openapi.json",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_drive_create_file_post",
-      "target": "openapi_post_requestbody",
-      "confidence_score": 1.0
+      "target": "openapi_post_requestbody"
     },
     {
       "relation": "contains",
@@ -3396,9 +3554,9 @@
       "source_file": "openapi.json",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_post_requestbody",
-      "target": "openapi_requestbody_content",
-      "confidence_score": 1.0
+      "target": "openapi_requestbody_content"
     },
     {
       "relation": "contains",
@@ -3406,9 +3564,9 @@
       "source_file": "openapi.json",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_post_requestbody",
-      "target": "openapi_requestbody_required",
-      "confidence_score": 1.0
+      "target": "openapi_requestbody_required"
     },
     {
       "relation": "contains",
@@ -3416,9 +3574,9 @@
       "source_file": "openapi.json",
       "source_location": "L92",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_patch_requestbody",
-      "target": "openapi_requestbody_required",
-      "confidence_score": 1.0
+      "target": "openapi_requestbody_required"
     },
     {
       "relation": "contains",
@@ -3426,9 +3584,9 @@
       "source_file": "openapi.json",
       "source_location": "L93",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_patch_requestbody",
-      "target": "openapi_requestbody_content",
-      "confidence_score": 1.0
+      "target": "openapi_requestbody_content"
     },
     {
       "relation": "contains",
@@ -3436,9 +3594,9 @@
       "source_file": "openapi.json",
       "source_location": "L93",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_requestbody_content",
-      "target": "openapi_content_application_json",
-      "confidence_score": 1.0
+      "target": "openapi_content_application_json"
     },
     {
       "relation": "contains",
@@ -3446,9 +3604,9 @@
       "source_file": "openapi.json",
       "source_location": "L94",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_content_application_json",
-      "target": "openapi_application_json_schema",
-      "confidence_score": 1.0
+      "target": "openapi_application_json_schema"
     },
     {
       "relation": "contains",
@@ -3456,9 +3614,9 @@
       "source_file": "openapi.json",
       "source_location": "L61",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_drive_create_file_post",
-      "target": "openapi_post_responses",
-      "confidence_score": 1.0
+      "target": "openapi_post_responses"
     },
     {
       "relation": "contains",
@@ -3466,9 +3624,9 @@
       "source_file": "openapi.json",
       "source_location": "L46",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_paths_drive_create_file",
-      "target": "openapi_drive_create_file_post",
-      "confidence_score": 1.0
+      "target": "openapi_drive_create_file_post"
     },
     {
       "relation": "contains",
@@ -3476,9 +3634,9 @@
       "source_file": "openapi.json",
       "source_location": "L65",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_paths_drive_metadata_id",
-      "target": "openapi_drive_metadata_id_get",
-      "confidence_score": 1.0
+      "target": "openapi_drive_metadata_id_get"
     },
     {
       "relation": "contains",
@@ -3486,9 +3644,9 @@
       "source_file": "openapi.json",
       "source_location": "L75",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_paths_drive_download_id",
-      "target": "openapi_drive_download_id_get",
-      "confidence_score": 1.0
+      "target": "openapi_drive_download_id_get"
     },
     {
       "relation": "contains",
@@ -3496,9 +3654,9 @@
       "source_file": "openapi.json",
       "source_location": "L85",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_paths_drive_update_id",
-      "target": "openapi_drive_update_id_patch",
-      "confidence_score": 1.0
+      "target": "openapi_drive_update_id_patch"
     },
     {
       "relation": "contains",
@@ -3506,9 +3664,9 @@
       "source_file": "openapi.json",
       "source_location": "L86",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_drive_update_id_patch",
-      "target": "openapi_patch_operationid",
-      "confidence_score": 1.0
+      "target": "openapi_patch_operationid"
     },
     {
       "relation": "contains",
@@ -3516,9 +3674,9 @@
       "source_file": "openapi.json",
       "source_location": "L87",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_drive_update_id_patch",
-      "target": "openapi_patch_parameters",
-      "confidence_score": 1.0
+      "target": "openapi_patch_parameters"
     },
     {
       "relation": "contains",
@@ -3526,9 +3684,9 @@
       "source_file": "openapi.json",
       "source_location": "L91",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_drive_update_id_patch",
-      "target": "openapi_patch_requestbody",
-      "confidence_score": 1.0
+      "target": "openapi_patch_requestbody"
     },
     {
       "relation": "contains",
@@ -3536,9 +3694,9 @@
       "source_file": "openapi.json",
       "source_location": "L102",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_drive_update_id_patch",
-      "target": "openapi_patch_responses",
-      "confidence_score": 1.0
+      "target": "openapi_patch_responses"
     },
     {
       "relation": "contains",
@@ -3546,9 +3704,9 @@
       "source_file": "openapi.json",
       "source_location": "L105",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openapi_paths_legal",
-      "target": "openapi_legal_get",
-      "confidence_score": 1.0
+      "target": "openapi_legal_get"
     },
     {
       "relation": "contains",
@@ -3556,9 +3714,9 @@
       "source_file": "package.json",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_dependencies",
-      "confidence_score": 1.0
+      "target": "package_dependencies"
     },
     {
       "relation": "contains",
@@ -3566,9 +3724,9 @@
       "source_file": "package.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_engines",
-      "confidence_score": 1.0
+      "target": "package_engines"
     },
     {
       "relation": "contains",
@@ -3576,9 +3734,9 @@
       "source_file": "package.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_main",
-      "confidence_score": 1.0
+      "target": "package_main"
     },
     {
       "relation": "contains",
@@ -3586,9 +3744,9 @@
       "source_file": "package.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_name",
-      "confidence_score": 1.0
+      "target": "package_name"
     },
     {
       "relation": "contains",
@@ -3596,9 +3754,9 @@
       "source_file": "package.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_scripts",
-      "confidence_score": 1.0
+      "target": "package_scripts"
     },
     {
       "relation": "contains",
@@ -3606,9 +3764,9 @@
       "source_file": "package.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_type",
-      "confidence_score": 1.0
+      "target": "package_type"
     },
     {
       "relation": "contains",
@@ -3616,9 +3774,9 @@
       "source_file": "package.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_version",
-      "confidence_score": 1.0
+      "target": "package_version"
     },
     {
       "relation": "contains",
@@ -3626,9 +3784,9 @@
       "source_file": "package.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_engines",
-      "target": "package_engines_node",
-      "confidence_score": 1.0
+      "target": "package_engines_node"
     },
     {
       "relation": "contains",
@@ -3636,9 +3794,9 @@
       "source_file": "package.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_start",
-      "confidence_score": 1.0
+      "target": "package_scripts_start"
     },
     {
       "relation": "contains",
@@ -3646,9 +3804,9 @@
       "source_file": "package.json",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_express",
-      "confidence_score": 1.0
+      "target": "package_dependencies_express"
     },
     {
       "relation": "contains",
@@ -3656,9 +3814,9 @@
       "source_file": "package.json",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_node_fetch",
-      "confidence_score": 1.0
+      "target": "package_dependencies_node_fetch"
     },
     {
       "relation": "contains",
@@ -3666,9 +3824,9 @@
       "source_file": ".claude/orquestrador.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_orquestrador",
-      "target": "claude_orquestrador_orquestrador_fmunizmcorp_gpt_drive_action",
-      "confidence_score": 1.0
+      "target": "claude_orquestrador_orquestrador_fmunizmcorp_gpt_drive_action"
     },
     {
       "relation": "contains",
@@ -3796,9 +3954,9 @@
       "source_file": ".claude/prompts.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_prompts",
-      "target": "claude_prompts_prompts_e_templates_fmunizmcorp_gpt_drive_action",
-      "confidence_score": 1.0
+      "target": "claude_prompts_prompts_e_templates_fmunizmcorp_gpt_drive_action"
     },
     {
       "relation": "contains",
@@ -3936,9 +4094,9 @@
       "source_file": ".claude/skills.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_skills",
-      "target": "claude_skills_skills_aplicaveis_node_js_typescript",
-      "confidence_score": 1.0
+      "target": "claude_skills_skills_aplicaveis_node_js_typescript"
     },
     {
       "relation": "contains",
@@ -3986,9 +4144,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude",
-      "target": "claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "confidence_score": 1.0
+      "target": "claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa"
     },
     {
       "relation": "contains",
@@ -3996,9 +4154,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L158",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude",
-      "target": "claude_claude_md_fmunizmcorp_gpt_drive_action",
-      "confidence_score": 1.0
+      "target": "claude_claude_md_fmunizmcorp_gpt_drive_action"
     },
     {
       "relation": "contains",
@@ -4006,9 +4164,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "claude_regra_0_voce_e_o_lider_orquestrador_deste_repo_ativo_agora",
-      "confidence_score": 1.0
+      "target": "claude_regra_0_voce_e_o_lider_orquestrador_deste_repo_ativo_agora"
     },
     {
       "relation": "contains",
@@ -4016,9 +4174,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "claude_regra_1_o_usuario_e_leigo_nunca_pergunte_sobre_persona_skill_ou_configuracao",
-      "confidence_score": 1.0
+      "target": "claude_regra_1_o_usuario_e_leigo_nunca_pergunte_sobre_persona_skill_ou_configuracao"
     },
     {
       "relation": "contains",
@@ -4026,9 +4184,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "claude_regra_1_skills_basais_sempre_on_nao_pergunte_nao_escolha",
-      "confidence_score": 1.0
+      "target": "claude_regra_1_skills_basais_sempre_on_nao_pergunte_nao_escolha"
     },
     {
       "relation": "contains",
@@ -4036,9 +4194,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L69",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "claude_regra_2_5_geracao_de_arquivos_excel_pdf_docx_pptx_skills_xlsx_pdf_docx_pptx",
-      "confidence_score": 1.0
+      "target": "claude_regra_2_5_geracao_de_arquivos_excel_pdf_docx_pptx_skills_xlsx_pdf_docx_pptx"
     },
     {
       "relation": "contains",
@@ -4046,9 +4204,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "claude_regra_2_skills_condicionais_para_repo_de_desenvolvimento",
-      "confidence_score": 1.0
+      "target": "claude_regra_2_skills_condicionais_para_repo_de_desenvolvimento"
     },
     {
       "relation": "contains",
@@ -4056,9 +4214,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L98",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "claude_regra_3_protocolo_de_leitura_obrigatorio_toda_mensagem_nova",
-      "confidence_score": 1.0
+      "target": "claude_regra_3_protocolo_de_leitura_obrigatorio_toda_mensagem_nova"
     },
     {
       "relation": "contains",
@@ -4066,9 +4224,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L111",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "claude_regra_4_protocolo_de_fechamento_obrigatorio_toda_sessao_com_mudancas",
-      "confidence_score": 1.0
+      "target": "claude_regra_4_protocolo_de_fechamento_obrigatorio_toda_sessao_com_mudancas"
     },
     {
       "relation": "contains",
@@ -4076,9 +4234,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L120",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "claude_regra_5_decisao_do_usuario_sobre_credenciais_ja_documentada",
-      "confidence_score": 1.0
+      "target": "claude_regra_5_decisao_do_usuario_sobre_credenciais_ja_documentada"
     },
     {
       "relation": "contains",
@@ -4086,9 +4244,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L124",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_atencao_claude_leia_e_obedeca_este_bloco_antes_de_qualquer_outra_coisa",
-      "target": "claude_regra_6_padroes_brasil_obrigatorios",
-      "confidence_score": 1.0
+      "target": "claude_regra_6_padroes_brasil_obrigatorios"
     },
     {
       "relation": "contains",
@@ -4096,9 +4254,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L88",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_regra_2_5_geracao_de_arquivos_excel_pdf_docx_pptx_skills_xlsx_pdf_docx_pptx",
-      "target": "claude_fluxo_padrao_quando_o_usuario_pede_arquivo",
-      "confidence_score": 1.0
+      "target": "claude_fluxo_padrao_quando_o_usuario_pede_arquivo"
     },
     {
       "relation": "contains",
@@ -4106,9 +4264,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L81",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_regra_2_5_geracao_de_arquivos_excel_pdf_docx_pptx_skills_xlsx_pdf_docx_pptx",
-      "target": "claude_padroes_brasil_obrigatorios_em_cada_arquivo_gerado",
-      "confidence_score": 1.0
+      "target": "claude_padroes_brasil_obrigatorios_em_cada_arquivo_gerado"
     },
     {
       "relation": "contains",
@@ -4116,9 +4274,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L371",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_claude_md_fmunizmcorp_gpt_drive_action",
-      "target": "claude_10_checklist_de_entrega_obrigatorio",
-      "confidence_score": 1.0
+      "target": "claude_10_checklist_de_entrega_obrigatorio"
     },
     {
       "relation": "contains",
@@ -4126,9 +4284,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L413",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_claude_md_fmunizmcorp_gpt_drive_action",
-      "target": "claude_11_referencias_rapidas",
-      "confidence_score": 1.0
+      "target": "claude_11_referencias_rapidas"
     },
     {
       "relation": "contains",
@@ -4136,9 +4294,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L192",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_claude_md_fmunizmcorp_gpt_drive_action",
-      "target": "claude_1_identidade_do_projeto",
-      "confidence_score": 1.0
+      "target": "claude_1_identidade_do_projeto"
     },
     {
       "relation": "contains",
@@ -4146,9 +4304,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L200",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_claude_md_fmunizmcorp_gpt_drive_action",
-      "target": "claude_2_seu_papel_orquestrador",
-      "confidence_score": 1.0
+      "target": "claude_2_seu_papel_orquestrador"
     },
     {
       "relation": "contains",
@@ -4156,9 +4314,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L218",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_claude_md_fmunizmcorp_gpt_drive_action",
-      "target": "claude_3_squad_de_ias_skills_aplicaveis",
-      "confidence_score": 1.0
+      "target": "claude_3_squad_de_ias_skills_aplicaveis"
     },
     {
       "relation": "contains",
@@ -4166,9 +4324,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L237",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_claude_md_fmunizmcorp_gpt_drive_action",
-      "target": "claude_4_metodologia_de_trabalho",
-      "confidence_score": 1.0
+      "target": "claude_4_metodologia_de_trabalho"
     },
     {
       "relation": "contains",
@@ -4176,9 +4334,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L285",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_claude_md_fmunizmcorp_gpt_drive_action",
-      "target": "claude_5_conhecimento_especifico_do_projeto",
-      "confidence_score": 1.0
+      "target": "claude_5_conhecimento_especifico_do_projeto"
     },
     {
       "relation": "contains",
@@ -4186,9 +4344,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L293",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_claude_md_fmunizmcorp_gpt_drive_action",
-      "target": "claude_6_stack_tecnologico_de_package_json",
-      "confidence_score": 1.0
+      "target": "claude_6_stack_tecnologico_de_package_json"
     },
     {
       "relation": "contains",
@@ -4196,9 +4354,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L311",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_claude_md_fmunizmcorp_gpt_drive_action",
-      "target": "claude_7_estrutura_do_repo",
-      "confidence_score": 1.0
+      "target": "claude_7_estrutura_do_repo"
     },
     {
       "relation": "contains",
@@ -4206,9 +4364,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L333",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_claude_md_fmunizmcorp_gpt_drive_action",
-      "target": "claude_9_aprendizado_e_atualizacao_continua",
-      "confidence_score": 1.0
+      "target": "claude_9_aprendizado_e_atualizacao_continua"
     },
     {
       "relation": "contains",
@@ -4216,9 +4374,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L178",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_claude_md_fmunizmcorp_gpt_drive_action",
-      "target": "claude_zero_1_excelencia_total_regras_inegociaveis",
-      "confidence_score": 1.0
+      "target": "claude_zero_1_excelencia_total_regras_inegociaveis"
     },
     {
       "relation": "contains",
@@ -4226,9 +4384,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L163",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_claude_md_fmunizmcorp_gpt_drive_action",
-      "target": "claude_zero_protocolo_de_ativacao_executar_sempre_no_inicio_da_conversa",
-      "confidence_score": 1.0
+      "target": "claude_zero_protocolo_de_ativacao_executar_sempre_no_inicio_da_conversa"
     },
     {
       "relation": "contains",
@@ -4236,9 +4394,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L233",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_3_squad_de_ias_skills_aplicaveis",
-      "target": "claude_quando_usar_cada_skill",
-      "confidence_score": 1.0
+      "target": "claude_quando_usar_cada_skill"
     },
     {
       "relation": "contains",
@@ -4246,9 +4404,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L220",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_3_squad_de_ias_skills_aplicaveis",
-      "target": "claude_skills_basais_sempre_validas_em_qualquer_tarefa",
-      "confidence_score": 1.0
+      "target": "claude_skills_basais_sempre_validas_em_qualquer_tarefa"
     },
     {
       "relation": "contains",
@@ -4256,9 +4414,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L228",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_3_squad_de_ias_skills_aplicaveis",
-      "target": "claude_skills_especificas_deste_projeto",
-      "confidence_score": 1.0
+      "target": "claude_skills_especificas_deste_projeto"
     },
     {
       "relation": "contains",
@@ -4266,9 +4424,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L239",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_4_metodologia_de_trabalho",
-      "target": "claude_fluxo_padrao_para_qualquer_tarefa",
-      "confidence_score": 1.0
+      "target": "claude_fluxo_padrao_para_qualquer_tarefa"
     },
     {
       "relation": "contains",
@@ -4276,9 +4434,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L275",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_4_metodologia_de_trabalho",
-      "target": "claude_padroes_obrigatorios",
-      "confidence_score": 1.0
+      "target": "claude_padroes_obrigatorios"
     },
     {
       "relation": "contains",
@@ -4286,9 +4444,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L289",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_5_conhecimento_especifico_do_projeto",
-      "target": "claude_estruturas_centrais_god_nodes_pelo_graphify",
-      "confidence_score": 1.0
+      "target": "claude_estruturas_centrais_god_nodes_pelo_graphify"
     },
     {
       "relation": "contains",
@@ -4296,9 +4454,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L321",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_7_estrutura_do_repo",
-      "target": "claude_arquivos_da_raiz_amostra",
-      "confidence_score": 1.0
+      "target": "claude_arquivos_da_raiz_amostra"
     },
     {
       "relation": "contains",
@@ -4306,9 +4464,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L313",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_7_estrutura_do_repo",
-      "target": "claude_diretorios_principais",
-      "confidence_score": 1.0
+      "target": "claude_diretorios_principais"
     },
     {
       "relation": "contains",
@@ -4316,9 +4474,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L335",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_9_aprendizado_e_atualizacao_continua",
-      "target": "claude_regra_de_ouro_sempre_atualize_o_conhecimento_do_projeto",
-      "confidence_score": 1.0
+      "target": "claude_regra_de_ouro_sempre_atualize_o_conhecimento_do_projeto"
     },
     {
       "relation": "contains",
@@ -4326,9 +4484,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L361",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_9_aprendizado_e_atualizacao_continua",
-      "target": "claude_triggers_para_regenerar_grafo",
-      "confidence_score": 1.0
+      "target": "claude_triggers_para_regenerar_grafo"
     },
     {
       "relation": "contains",
@@ -4336,9 +4494,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L375",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_10_checklist_de_entrega_obrigatorio",
-      "target": "claude_codigo",
-      "confidence_score": 1.0
+      "target": "claude_codigo"
     },
     {
       "relation": "contains",
@@ -4346,9 +4504,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L399",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_10_checklist_de_entrega_obrigatorio",
-      "target": "claude_deploy",
-      "confidence_score": 1.0
+      "target": "claude_deploy"
     },
     {
       "relation": "contains",
@@ -4356,9 +4514,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L391",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_10_checklist_de_entrega_obrigatorio",
-      "target": "claude_documentacao",
-      "confidence_score": 1.0
+      "target": "claude_documentacao"
     },
     {
       "relation": "contains",
@@ -4366,9 +4524,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L407",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_10_checklist_de_entrega_obrigatorio",
-      "target": "claude_sinalizar_conclusao",
-      "confidence_score": 1.0
+      "target": "claude_sinalizar_conclusao"
     },
     {
       "relation": "contains",
@@ -4376,9 +4534,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L383",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_10_checklist_de_entrega_obrigatorio",
-      "target": "claude_testes",
-      "confidence_score": 1.0
+      "target": "claude_testes"
     },
     {
       "relation": "contains",
@@ -4386,9 +4544,9 @@
       "source_file": "docs/APRENDIZADOS.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_aprendizados",
-      "target": "docs_aprendizados_aprendizados_fmunizmcorp_gpt_drive_action",
-      "confidence_score": 1.0
+      "target": "docs_aprendizados_aprendizados_fmunizmcorp_gpt_drive_action"
     },
     {
       "relation": "contains",
@@ -4436,9 +4594,9 @@
       "source_file": "docs/HISTORICO.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_historico",
-      "target": "docs_historico_historico_de_sessoes_fmunizmcorp_gpt_drive_action",
-      "confidence_score": 1.0
+      "target": "docs_historico_historico_de_sessoes_fmunizmcorp_gpt_drive_action"
     },
     {
       "relation": "contains",
@@ -5922,5 +6080,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "6e7f346267bc9e907796443def61a4192d17d7c3"
+  "built_at_commit": "c43868a2463750aaf007b3c95c805edb5da9f211"
 }

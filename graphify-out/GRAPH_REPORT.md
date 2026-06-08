@@ -1,4 +1,4 @@
-# Graph Report - gpt-drive-action  (2026-06-01)
+# Graph Report - gpt-drive-action  (2026-06-08)
 
 ## Corpus Check
 - 10 files · ~4,247 words
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `6e7f3462`
+- Built from commit: `c43868a2`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
