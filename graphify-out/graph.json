@@ -110,7 +110,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "manifest_auth",
-      "community": 15,
+      "community": 8,
       "norm_label": "auth"
     },
     {
@@ -120,7 +120,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "manifest_auth_type",
-      "community": 15,
+      "community": 8,
       "norm_label": "type"
     },
     {
@@ -130,7 +130,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "manifest_auth_client_url",
-      "community": 15,
+      "community": 8,
       "norm_label": "client_url"
     },
     {
@@ -140,7 +140,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "manifest_auth_scope",
-      "community": 15,
+      "community": 8,
       "norm_label": "scope"
     },
     {
@@ -150,7 +150,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "manifest_auth_authorization_url",
-      "community": 15,
+      "community": 8,
       "norm_label": "authorization_url"
     },
     {
@@ -160,7 +160,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "manifest_auth_authorization_content_type",
-      "community": 15,
+      "community": 8,
       "norm_label": "authorization_content_type"
     },
     {
@@ -170,7 +170,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "manifest_auth_verification_tokens",
-      "community": 15,
+      "community": 8,
       "norm_label": "verification_tokens"
     },
     {
@@ -1218,7 +1218,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L6",
-      "community": 7,
+      "community": 9,
       "norm_label": "200",
       "id": "gpt_drive_action_openapi_responses_200"
     },
@@ -1259,15 +1259,6 @@
       "id": "gpt_drive_action_openapi_responses_400"
     },
     {
-      "label": "description",
-      "file_type": "code",
-      "source_file": "openapi.json",
-      "source_location": "L13",
-      "community": 9,
-      "norm_label": "description",
-      "id": "gpt_drive_action_openapi_400_description"
-    },
-    {
       "label": "/drive/list",
       "file_type": "code",
       "source_file": "openapi.json",
@@ -1277,20 +1268,11 @@
       "id": "gpt_drive_action_openapi_paths_drive_list"
     },
     {
-      "label": "get",
-      "file_type": "code",
-      "source_file": "openapi.json",
-      "source_location": "L17",
-      "community": 9,
-      "norm_label": "get",
-      "id": "gpt_drive_action_openapi_drive_list_get"
-    },
-    {
       "label": "401",
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L25",
-      "community": 7,
+      "community": 9,
       "norm_label": "401",
       "id": "gpt_drive_action_openapi_responses_401"
     },
@@ -1299,7 +1281,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L25",
-      "community": 7,
+      "community": 9,
       "norm_label": "description",
       "id": "gpt_drive_action_openapi_401_description"
     },
@@ -1308,7 +1290,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L28",
-      "community": 7,
+      "community": 9,
       "norm_label": "/drive/create-folder",
       "id": "gpt_drive_action_openapi_paths_drive_create_folder"
     },
@@ -1317,7 +1299,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L29",
-      "community": 7,
+      "community": 9,
       "norm_label": "post",
       "id": "gpt_drive_action_openapi_drive_create_folder_post"
     },
@@ -1326,7 +1308,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L30",
-      "community": 7,
+      "community": 9,
       "norm_label": "operationid",
       "id": "gpt_drive_action_openapi_post_operationid"
     },
@@ -1380,7 +1362,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L45",
-      "community": 7,
+      "community": 9,
       "norm_label": "/drive/create-file",
       "id": "gpt_drive_action_openapi_paths_drive_create_file"
     },
@@ -1416,7 +1398,7 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L84",
-      "community": 7,
+      "community": 9,
       "norm_label": "/drive/update/{id}",
       "id": "gpt_drive_action_openapi_paths_drive_update_id"
     },
@@ -1425,36 +1407,9 @@
       "file_type": "code",
       "source_file": "openapi.json",
       "source_location": "L85",
-      "community": 7,
+      "community": 9,
       "norm_label": "patch",
       "id": "gpt_drive_action_openapi_drive_update_id_patch"
-    },
-    {
-      "label": "operationId",
-      "file_type": "code",
-      "source_file": "openapi.json",
-      "source_location": "L86",
-      "community": 9,
-      "norm_label": "operationid",
-      "id": "gpt_drive_action_openapi_patch_operationid"
-    },
-    {
-      "label": "parameters",
-      "file_type": "code",
-      "source_file": "openapi.json",
-      "source_location": "L87",
-      "community": 7,
-      "norm_label": "parameters",
-      "id": "gpt_drive_action_openapi_patch_parameters"
-    },
-    {
-      "label": "responses",
-      "file_type": "code",
-      "source_file": "openapi.json",
-      "source_location": "L102",
-      "community": 7,
-      "norm_label": "responses",
-      "id": "gpt_drive_action_openapi_patch_responses"
     },
     {
       "label": "/legal",
@@ -1488,7 +1443,7 @@
       "file_type": "code",
       "source_file": "manifest.json",
       "source_location": "L8",
-      "community": 15,
+      "community": 8,
       "norm_label": "type",
       "id": "gpt_drive_action_manifest_auth_type"
     },
@@ -1588,6 +1543,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "index.js",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "index",
+      "target": "gpt_drive_action_index_url"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.js",
       "source_location": "L3",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -1613,16 +1578,6 @@
       "confidence_score": 1.0,
       "source": "index",
       "target": "index_fetch"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "index.js",
-      "source_location": "L25",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "index",
-      "target": "gpt_drive_action_index_url"
     },
     {
       "relation": "contains",
@@ -1718,6 +1673,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "manifest.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manifest_auth",
+      "target": "gpt_drive_action_manifest_auth_type"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
       "source_location": "L12",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -1762,7 +1727,7 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "manifest_auth",
-      "target": "gpt_drive_action_manifest_auth_type"
+      "target": "manifest_auth_type"
     },
     {
       "relation": "contains",
@@ -1778,11 +1743,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "manifest.json",
-      "source_location": "L8",
+      "source_location": "L16",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "manifest_auth",
-      "target": "manifest_auth_type"
+      "source": "manifest_api",
+      "target": "gpt_drive_action_manifest_api_type"
     },
     {
       "relation": "contains",
@@ -1802,7 +1767,7 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "manifest_api",
-      "target": "gpt_drive_action_manifest_api_type"
+      "target": "manifest_api_type"
     },
     {
       "relation": "contains",
@@ -1813,16 +1778,6 @@
       "confidence_score": 1.0,
       "source": "manifest_api",
       "target": "manifest_api_url"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "manifest.json",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "manifest_api",
-      "target": "manifest_api_type"
     },
     {
       "relation": "contains",
@@ -2902,7 +2857,7 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_health_get",
-      "target": "gpt_drive_action_openapi_patch_operationid"
+      "target": "gpt_drive_action_openapi_get_responses"
     },
     {
       "relation": "contains",
@@ -2912,7 +2867,7 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_health_get",
-      "target": "gpt_drive_action_openapi_get_responses"
+      "target": "gpt_drive_action_openapi_post_operationid"
     },
     {
       "relation": "contains",
@@ -2922,6 +2877,16 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_auth_url_get",
+      "target": "gpt_drive_action_openapi_get_responses"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "gpt_drive_action_openapi_drive_create_folder_post",
       "target": "gpt_drive_action_openapi_get_responses"
     },
     {
@@ -2938,16 +2903,6 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "openapi.json",
-      "source_location": "L25",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "gpt_drive_action_openapi_drive_list_get",
-      "target": "gpt_drive_action_openapi_get_responses"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openapi.json",
       "source_location": "L71",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -2958,7 +2913,17 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "openapi.json",
-      "source_location": "L105",
+      "source_location": "L102",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "gpt_drive_action_openapi_drive_update_id_patch",
+      "target": "gpt_drive_action_openapi_get_responses"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L61",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_get_responses",
@@ -2978,21 +2943,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "openapi.json",
-      "source_location": "L81",
+      "source_location": "L61",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_get_responses",
       "target": "gpt_drive_action_openapi_responses_401"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openapi.json",
-      "source_location": "L61",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "gpt_drive_action_openapi_patch_responses",
-      "target": "gpt_drive_action_openapi_responses_200"
     },
     {
       "relation": "contains",
@@ -3018,20 +2973,30 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "openapi.json",
-      "source_location": "L9",
+      "source_location": "L10",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_auth_url_get",
-      "target": "gpt_drive_action_openapi_patch_operationid"
+      "target": "gpt_drive_action_openapi_get_parameters"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "openapi.json",
-      "source_location": "L10",
+      "source_location": "L9",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_auth_url_get",
+      "target": "gpt_drive_action_openapi_post_operationid"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "gpt_drive_action_openapi_drive_create_folder_post",
       "target": "gpt_drive_action_openapi_get_parameters"
     },
     {
@@ -3048,16 +3013,6 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "openapi.json",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "gpt_drive_action_openapi_drive_list_get",
-      "target": "gpt_drive_action_openapi_get_parameters"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openapi.json",
       "source_location": "L67",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -3068,11 +3023,21 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "openapi.json",
+      "source_location": "L87",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "gpt_drive_action_openapi_drive_update_id_patch",
+      "target": "gpt_drive_action_openapi_get_parameters"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
       "source_location": "L13",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_responses_400",
-      "target": "gpt_drive_action_openapi_400_description"
+      "target": "gpt_drive_action_openapi_401_description"
     },
     {
       "relation": "contains",
@@ -3082,27 +3047,7 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_paths_drive_list",
-      "target": "gpt_drive_action_openapi_drive_list_get"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openapi.json",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "gpt_drive_action_openapi_drive_list_get",
-      "target": "gpt_drive_action_openapi_patch_operationid"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openapi.json",
-      "source_location": "L61",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "gpt_drive_action_openapi_patch_responses",
-      "target": "gpt_drive_action_openapi_responses_401"
+      "target": "gpt_drive_action_openapi_legal_get"
     },
     {
       "relation": "contains",
@@ -3138,16 +3083,6 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "openapi.json",
-      "source_location": "L31",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "gpt_drive_action_openapi_drive_create_folder_post",
-      "target": "gpt_drive_action_openapi_patch_parameters"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openapi.json",
       "source_location": "L34",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -3158,21 +3093,41 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "openapi.json",
-      "source_location": "L42",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "gpt_drive_action_openapi_drive_create_folder_post",
-      "target": "gpt_drive_action_openapi_patch_responses"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openapi.json",
       "source_location": "L46",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "gpt_drive_action_openapi_paths_drive_create_file",
       "target": "gpt_drive_action_openapi_drive_create_folder_post"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L105",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "gpt_drive_action_openapi_legal_get",
+      "target": "gpt_drive_action_openapi_post_operationid"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "gpt_drive_action_openapi_drive_metadata_id_get",
+      "target": "gpt_drive_action_openapi_post_operationid"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openapi.json",
+      "source_location": "L86",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "gpt_drive_action_openapi_drive_update_id_patch",
+      "target": "gpt_drive_action_openapi_post_operationid"
     },
     {
       "relation": "contains",
@@ -3238,16 +3193,6 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "openapi.json",
-      "source_location": "L66",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "gpt_drive_action_openapi_drive_metadata_id_get",
-      "target": "gpt_drive_action_openapi_patch_operationid"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openapi.json",
       "source_location": "L75",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -3268,46 +3213,6 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "openapi.json",
-      "source_location": "L86",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "gpt_drive_action_openapi_drive_update_id_patch",
-      "target": "gpt_drive_action_openapi_patch_operationid"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openapi.json",
-      "source_location": "L87",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "gpt_drive_action_openapi_drive_update_id_patch",
-      "target": "gpt_drive_action_openapi_patch_parameters"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openapi.json",
-      "source_location": "L102",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "gpt_drive_action_openapi_drive_update_id_patch",
-      "target": "gpt_drive_action_openapi_patch_responses"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openapi.json",
-      "source_location": "L105",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "gpt_drive_action_openapi_legal_get",
-      "target": "gpt_drive_action_openapi_patch_operationid"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openapi.json",
       "source_location": "L105",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -3316,5 +3221,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "a2835e36bb21a5f26aa19102420a3c668cf4aeb2"
+  "built_at_commit": "a4ca5894b479a3d86e9c4e1e60417734807c4de9"
 }

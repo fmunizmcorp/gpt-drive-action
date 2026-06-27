@@ -1,16 +1,16 @@
-# Graph Report - gpt-drive-action  (2026-06-26)
+# Graph Report - gpt-drive-action  (2026-06-27)
 
 ## Corpus Check
 - 10 files · ~4,247 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 163 nodes · 173 edges · 15 communities
+- 158 nodes · 168 edges · 16 communities
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `a2835e36`
+- Built from commit: `a4ca5894`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -23,6 +23,7 @@
 - [[_COMMUNITY_Community 5|Community 5]]
 - [[_COMMUNITY_Community 6|Community 6]]
 - [[_COMMUNITY_Community 7|Community 7]]
+- [[_COMMUNITY_Community 8|Community 8]]
 - [[_COMMUNITY_Community 9|Community 9]]
 - [[_COMMUNITY_Community 12|Community 12]]
 - [[_COMMUNITY_Community 13|Community 13]]
@@ -36,8 +37,8 @@
 2. `Orquestrador - fmunizmcorp/gpt-drive-action` - 10 edges
 3. `ATENCAO CLAUDE - LEIA E OBEDECA ESTE BLOCO ANTES DE QUALQUER OUTRA COISA` - 10 edges
 4. `paths` - 10 edges
-5. `auth` - 8 edges
-6. `responses` - 8 edges
+5. `responses` - 9 edges
+6. `auth` - 8 edges
 7. `Prompts e Templates - fmunizmcorp/gpt-drive-action` - 7 edges
 8. `10. CHECKLIST DE ENTREGA OBRIGATORIO` - 6 edges
 9. `post` - 6 edges
@@ -49,7 +50,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (15 total, 0 thin omitted)
+## Communities (16 total, 0 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.33
@@ -80,12 +81,16 @@ Cohesion: 0.40
 Nodes (4): Como usar, Historico, Historico de Sessoes - fmunizmcorp/gpt-drive-action, YYYY-MM-DD - vX.Y.Z - Titulo da sessao
 
 ### Community 7 - "Community 7"
-Cohesion: 0.15
-Nodes (16): description, schema, application/json, post, patch, parameters, responses, /drive/create-file (+8 more)
+Cohesion: 0.40
+Nodes (5): schema, application/json, requestBody, content, required
+
+### Community 8 - "Community 8"
+Cohesion: 0.25
+Nodes (8): type, auth, authorization_content_type, authorization_url, client_url, scope, type, verification_tokens
 
 ### Community 9 - "Community 9"
-Cohesion: 0.21
-Nodes (17): description, get, get, get, parameters, responses, get, get (+9 more)
+Cohesion: 0.16
+Nodes (23): description, get, post, get, patch, parameters, responses, get (+15 more)
 
 ### Community 12 - "Community 12"
 Cohesion: 0.15
@@ -96,8 +101,8 @@ Cohesion: 0.40
 Nodes (4): Basais (sempre), Condicionais, Padroes obrigatorios Node/TS, Skills aplicaveis (Node.js / TypeScript)
 
 ### Community 15 - "Community 15"
-Cohesion: 0.10
-Nodes (20): type, type, api, is_user_authenticated, type, url, auth, authorization_content_type (+12 more)
+Cohesion: 0.15
+Nodes (12): type, api, is_user_authenticated, type, url, contact_email, description_for_human, description_for_model (+4 more)
 
 ### Community 16 - "Community 16"
 Cohesion: 0.15
@@ -112,21 +117,19 @@ Cohesion: 0.40
 Nodes (3): url, app, express
 
 ## Knowledge Gaps
-- **91 isolated node(s):** `express`, `app`, `schema_version`, `name_for_human`, `name_for_model` (+86 more)
+- **89 isolated node(s):** `express`, `app`, `schema_version`, `name_for_human`, `name_for_model` (+84 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `CLAUDE.md - fmunizmcorp/gpt-drive-action` connect `Community 4` to `Community 16`, `Community 0`, `Community 1`?**
-  _High betweenness centrality (0.060) - this node is a cross-community bridge._
-- **Why does `paths` connect `Community 9` to `Community 3`, `Community 7`?**
-  _High betweenness centrality (0.024) - this node is a cross-community bridge._
+  _High betweenness centrality (0.064) - this node is a cross-community bridge._
+- **Why does `paths` connect `Community 9` to `Community 3`?**
+  _High betweenness centrality (0.018) - this node is a cross-community bridge._
 - **What connects `express`, `app`, `schema_version` to the rest of the system?**
-  _91 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _89 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
 - **Should `Community 4` be split into smaller, more focused modules?**
   _Cohesion score 0.1 - nodes in this community are weakly interconnected._
-- **Should `Community 15` be split into smaller, more focused modules?**
-  _Cohesion score 0.09523809523809523 - nodes in this community are weakly interconnected._
