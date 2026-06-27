@@ -1,56 +1,56 @@
 {
   "openapi.json": {
-    "mtime": 1782549217.39627,
+    "mtime": 1782553931.8385587,
     "ast_hash": "fb076965e204cc1ebdd1c2f2127b3141",
     "semantic_hash": ""
   },
   "index.js": {
-    "mtime": 1782549217.39627,
+    "mtime": 1782553931.8385587,
     "ast_hash": "39e2e376bba274cad2c691ead5bb82fc",
     "semantic_hash": ""
   },
   "package.json": {
-    "mtime": 1782549217.39627,
+    "mtime": 1782553931.8385587,
     "ast_hash": "87a61d8124851afe392527d65e3374e8",
     "semantic_hash": ""
   },
   "manifest.json": {
-    "mtime": 1782549217.39627,
+    "mtime": 1782553931.8385587,
     "ast_hash": "ec1517b83ed4ae444dbbd6ce7c8b3491",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1782549217.3952856,
+    "mtime": 1782553931.8370073,
     "ast_hash": "74535b55384fa2079e0504675ce97f82",
     "semantic_hash": ""
   },
   "docs/APRENDIZADOS.md": {
-    "mtime": 1782549217.3952856,
+    "mtime": 1782553931.8370073,
     "ast_hash": "49028c48f5ce93db22a58230029f32fa",
     "semantic_hash": ""
   },
   "docs/HISTORICO.md": {
-    "mtime": 1782549217.3955758,
+    "mtime": 1782553931.8373086,
     "ast_hash": "67fa9e62c59f6232c587e3105f314d82",
     "semantic_hash": ""
   },
   ".github/workflows/graphify.yml": {
-    "mtime": 1782549217.3952856,
-    "ast_hash": "3f73f40d0b691c5e97a37ddbe3d87734",
+    "mtime": 1782553931.8370073,
+    "ast_hash": "086e6e29e0e3f767ebf272ca6f66d556",
     "semantic_hash": ""
   },
   ".claude/skills.md": {
-    "mtime": 1782549217.3951662,
+    "mtime": 1782553931.83688,
     "ast_hash": "8ec2ceabf3ea60d5512ce626ca6e0170",
     "semantic_hash": ""
   },
   ".claude/prompts.md": {
-    "mtime": 1782549217.3951662,
+    "mtime": 1782553931.83688,
     "ast_hash": "6996b2ff4585efa6b97952dd559c422f",
     "semantic_hash": ""
   },
   ".claude/orquestrador.md": {
-    "mtime": 1782549217.3942702,
+    "mtime": 1782553931.8365586,
     "ast_hash": "91d5e69d259dda3f3f9ee3675b402765",
     "semantic_hash": ""
   }
